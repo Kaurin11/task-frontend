@@ -1,0 +1,743 @@
+<!DOCTYPE html>
+
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<title>Pod velikim ste pritiskom! Očekuje vas VAŽAN poslovni sastanak! Pokažite šta možete!</title>
+<link rel="shortcut icon" href="https://static.vesti.rs/favicon.png" />
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta property="og:title" content="Pod velikim ste pritiskom! Očekuje vas VAŽAN poslovni sastanak! Pokažite šta možete!" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://www.vesti.rs/Zabava/Pod-velikim-ste-pritiskom-Ocekuje-vas-VAZAN-poslovni-sastanak-Pokazite-sta-mozete.html" />
+<meta property="og:image" content="https://static.vesti.rs/slike-4/Pod-velikim-ste-pritiskom-Ocekuje-vas-VAZAN-poslovni-sastanak-Pokazite-sta-mozete.jpg" />
+<meta property="og:image" content="https://static.vesti.rs/img/vesti-logo4.png" />
+<meta property="og:site_name" content="Vesti.rs" />
+<meta property="fb:app_id" content="181511018570279" />
+<link rel="image_src" href="https://static.vesti.rs/slike-4/Pod-velikim-ste-pritiskom-Ocekuje-vas-VAZAN-poslovni-sastanak-Pokazite-sta-mozete.jpg" />
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<link href="//fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css?family=Alegreya+Sans:400,500,700" rel="stylesheet">
+<script>
+	var url = window.location.href;
+	var ads_ok=1;
+	if (url=='https://www.vesti.rs') ads_ok=0;
+	if (url=='https://www.vesti.rs/') ads_ok=0;
+	if (url=='https://www.vesti.rs/Horoskop/') ads_ok=0;
+	if (url.indexOf("/arhiva/")>0) ads_ok=0;
+	if (url.indexOf("/Danas/")>0) ads_ok=0;
+	if (url.indexOf("/izvor/")>0) ads_ok=0;
+
+    if (ads_ok==1) {
+        (adsbygoogle = window.adsbygoogle || []).push({
+            google_ad_client: "ca-pub-4215876905870354",
+            enable_page_level_ads: true
+        });
+    }
+
+var SITE_ROOT_STATIC='https://static.vesti.rs/';
+var HTTP_CF_IPCOUNTRY_ALLOWED=1;
+var garr;
+var mc_no_iframe=1;
+var mc_ads;
+var eventer_received=0;
+
+// Create IE + others compatible event handler
+var eventMethod = window.addEventListener ? "addEventListener" : "attachEvent";
+var eventer = window[eventMethod];
+var messageEvent = eventMethod == "attachEvent" ? "onmessage" : "message";
+
+eventer(messageEvent,function(e) {
+  // console.log('parent received message: '+e.data);
+  if (e.data=="mc_ads_1") {
+    console.log('eventer received message: '+e.data);
+	//_gaq.push(['_trackEvent', 'eventer4', 'received', e.data]);
+	eventer_received=1;
+    mc_ads(1);
+  }
+  if (e.data=="mc_ads_2") {
+    console.log('eventer received message: '+e.data);
+	//_gaq.push(['_trackEvent', 'eventer4', 'received', e.data]);
+	eventer_received=1;
+    mc_ads(2);
+  }
+  if (e.data=="mc_ads_3") {
+    console.log('eventer received message: '+e.data);
+	//_gaq.push(['_trackEvent', 'eventer4', 'received', e.data]);
+	eventer_received=1;
+    mc_ads(3);
+  }
+  if (e.data=="mc_ads_4") {
+    console.log('eventer received message: '+e.data);
+	//_gaq.push(['_trackEvent', 'eventer4', 'received', e.data]);
+	eventer_received=1;
+    mc_ads(4);
+  }
+},false);
+
+
+function ga_push(arr)
+{
+	garr=arr;
+	setTimeout(function() {
+	_gaq.push(garr);
+	}, 1000);
+}
+</script>
+
+<style type="text/css">
+#share-buttons img {
+width: 35px;
+padding: 5px;
+border: 0;
+box-shadow: 0;
+display: inline;
+}
+</style>
+
+<link rel="stylesheet" href="https://static.vesti.rs/vesti/style.css?v=6" />
+<link rel="stylesheet" href="https://static.vesti.rs/vesti/archive.css" type="text/css" media="screen" />
+<link rel="stylesheet" media="screen and (max-width: 960px)" type="text/css" href="https://static.vesti.rs/vesti/max-1024.css">
+<link rel="stylesheet" media="screen and (max-width: 960px)" type="text/css" href="https://static.vesti.rs/vesti/jquery.pageslide.css" />
+<!--
+<link rel="stylesheet" href="https://static.vesti.rs/vesti/nivo-slider.css" type="text/css" media="screen" />-->
+<!--[if lte IE 7]>
+<link rel="stylesheet" type="text/css" href="https://static.vesti.rs/vesti/ie7-and-down.css" />
+<![endif]-->
+<!-- <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400' rel='stylesheet' type='text/css'> -->
+<link rel="stylesheet" href="https://static.vesti.rs/vesti/assets/css/style.css" type="text/css">
+
+<script type="text/javascript" src="https://static.vesti.rs/vesti/js/jquery-1.11.1.min.js"></script>
+<script src="https://static.vesti.rs/vesti/js/functions.js?v=15" type="text/javascript"></script>
+<!--[if lt IE 9]>
+<script src="https://static.vesti.rs/vesti/assets/js/html5.js"></script>
+<![endif]-->
+
+<meta name="Keywords" content="Pod, velikim, ste, pritiskom, Očekuje, vas, VAŽAN, poslovni, sastanak, Pokažite, šta, možete, Ovaj, znak, ponekad, vesti" />
+<meta name="Description" content=" AUTOR: www. astrousluge. com/M. M. DATUM I VREME: 21. 07. 2019. 05:00 Otkrijte šta vam zvezde predviđaju za danas… Foto: Shutterstock, ilustracija OVAN POSAO: Stabilna situacija na poslovnom planu može da vam da vetar u leđa da počnete da razmišljate o novim projektima..." />
+<meta name="Copyright" content="Vesti.rs" />
+<link rel="alternate" type="application/rss+xml" title="Vesti.rs" href="https://www.vesti.rs/rss.php" /><link rel="alternate" type="application/rss+xml" title="Vesti.rs :: Zabava" href="https://www.vesti.rs/rss.php?s=8" />
+<script type="text/javascript">
+function Chr(AsciiNum) {return String.fromCharCode(AsciiNum);}
+function brojac(s) {img = new Image(); img.src = "https://www.vesti.rs/stat.php?js=1&s="+s;}
+window.google_analytics_uacct = "UA-1011915-5";
+</script>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-1011915-5']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+
+
+
+<link rel="stylesheet" type="text/css" href="/cookie-consent/style.css" />
+<script type="text/javascript" src="/cookie-consent/index.js"></script>
+</head>
+<body>
+<div id="mch-cookie-consent" class="mch-cookie-consent">
+  <p>Naš sajt koristi kolačiće kako bi poboljšao korisničko iskustvo</p>
+  <div class="mch-cookie-consent__btns">
+    <button class="mch-cookie-consent__btns--allow-btn" id="mch-cookie-consent--allow">Prihvatam</button>
+    <button class="mch-cookie-consent__btns--deny-btn"  id="mch-cookie-consent--deny">Odbijam</button>
+  </div>
+</div>
+
+<!-- HEADER -->
+<header>
+<div class="header-wrapper">
+<div class="header">
+<div class="logo">
+	<a href="https://www.vesti.rs"><img src="https://static.vesti.rs/vesti/images2/logo4.png" /></a>
+</div>
+</div>
+</div>
+</header>
+
+<nav>
+		<div class="main-menu">
+		<ul id="navMenu">
+			<li id="vesti"><a href="/">Vesti</a></li>
+			<li id="zabava"><a href="/Zabava/">Zabava</a></li>
+			<li id="razno"><a href="/Razno/">Razno</a></li>
+			<li id="region"><a href="/Region/">Region</a></li>
+			<li id="gradovi"><a href="/Gradovi/">Gradovi</a></li>
+			<li id="izvori"><a href="/Blog/Izvori.html">Izvori</a></li>
+			<li id="onama" ><a href="/Blog/O-Vesti-rs-sajtu.html">O nama</a></li>
+<!--			<li id="marketing"><a href="https://static.vesti.rs/mediakit-vesti.zip">Marketing</a></li>-->
+		</ul>
+		</div>
+		<div class="clear"></div>
+		<div class="sub-menu">
+			<ul id="vesti_ul" style="display:none;" class="podmeni">
+				<li class="first"><a href="/Politika/">Politika</a></li>
+				<li><a href="/Ekonomija/">Ekonomija</a></li>
+				<li><a href="/Hronika/">Hronika</a></li>
+				<li><a href="/Sport/">Sport</a></li>
+				<li><a href="/Svet/">Svet</a></li>
+				<li><a href="/Drustvo/">Društvo</a></li>
+				<li><a href="/Kultura/">Kultura</a></li>
+				<li><a href="/Auto-moto/">Auto-moto</a></li>
+				<li><a href="/Zdravlje/">Zdravlje</a></li>
+				<li><a href="/Nauka/">Nauka</a></li>
+			</ul>
+			<ul id="zabava_ul" style="display:none;" class="podmeni">
+				<li class="first"><a href="/Zivot/">Život</a></li>
+				<li><a href="/Muzika/">Muzika</a></li>
+				<li><a href="/Filmovi/">Filmovi</a></li>
+				<li><a href="/Turizam/">Turizam</a></li>
+				<li><a href="/Igre/">Igre</a></li>
+				<li><a href="/Zena/">Moda, žene</a></li>
+				<li><a href="/Muski-svet/">Muški svet</a></li>
+				<li><a href="/Blogovi/kat/Izlasci/">Noćni život</a></li>
+				<li><a href="/Desavanja-u-gradu/">Dešavanja</a></li>
+				<li><a href="/Horoskop/">Horoskop</a></li>
+				<li><a href="/Estrada/">Estrada</a></li>
+
+			</ul>
+			<ul id="razno_ul" style="display:none;" class="podmeni">
+				<li class="first"><a href="/HiTech/">HiTech</a></li>
+				<li><a href="/Mobilni/">Mobilni</a></li>
+				<li><a href="/Dobre-vesti/">Dobre vesti</a></li>
+				<li><a href="/Blogovi/">Blogosfera</a></li>
+				<li><a href="/Reportaze/">Reportaže</a></li>
+				<li><a href="/Ekologija/">Ekologija</a></li>
+				<li><a href="/Gradjevinarstvo/">Građevinstvo</a></li>
+				<li><a href="/Saopstenja/">Saopštenja</a></li>
+				<li><a href="/Intervju/">Stav</a></li>
+			</ul>
+			<ul id="region_ul" style="display:none;" class="podmeni">
+				<li class="first"><a href="/Bosna-i-Hercegovina/">Bosna i Herceg.</a></li>
+				<li><a href="/Republika-Srpska/">Republika Srpska</a></li>
+				<li><a href="/Crna-Gora/">Crna Gora</a></li>
+				<li><a href="/Hrvatska/">Hrvatska</a></li>
+				<li><a href="/Makedonija/">Makedonija</a></li>
+				<li><a href="/Region/">Susedne države</a></li>
+				<li><a href="/Dijaspora/">Dijaspora</a></li>
+			</ul>
+			<ul id="gradovi_ul" style="display:none;" class="podmeni">
+				<li class="first"><a href="/Beogradske/">Beograd</a></li>
+				<li><a href="/Vojvodina/">Vojvođanske vesti</a></li>
+				<li><a href="/Novi-Sad/">Novi Sad</a></li>
+				<li><a href="/Nis/">Niš</a></li>
+				<li><a href="/Ra%C5%A1ka/">Raška oblast</a></li>
+				<li><a href="/Kragujevac/">Kragujevac</a></li>
+				<li><a href="/Krusevac/">Kruševac</a></li>
+				<li><a href="/Jagodina/">Jagodina</a></li>
+				<li><a href="/Subotica/">Subotica</a></li>
+				<li><a href="/Zaje%C4%8Dar/">Zaječar</a></li>
+				<li><a href="/Trstenik/">Trstenik</a></li>
+				<li><a href="/Vrnjacka-Banja/">Vrnjačka Banja</a></li>
+				<li><a href="/Bor/"> Bor</a></li>
+				<li><a href="/Vranje/">Vranje</a></li>
+				<li><a href="/Zrenjanin/">Zrenjanin</a></li>
+				<li><a href="/Leskovac/">Leskovac</a></li>
+				<li><a href="/Aleksinac/">Aleksinac</a></li>
+				<li><a href="/Bačka-Palanka/">Bačka Palanka</a></li>
+				<li><a href="/Gradovi/">Ostali gradovi &gt;&gt;</a></li>
+			</ul>
+			<ul id="izvori_ul" style="display:none;" class="podmeni">
+				<li class="first"><a href="/izvor/b92/">B92</a></li>
+				<li><a href="/izvor/blic/">Blic</a></li>
+				<li><a href="/izvor/Beta/">Beta</a></li>
+				<li><a href="/izvor/politika/">Politika</a></li>
+				<li><a href="/izvor/press/">Press</a></li>
+				<li><a href="/izvor/Telegraf/">Telegraf</a></li>
+				<li><a href="/izvor/RTS/">RTS</a></li>
+				<li><a href="/izvor/vecernje_novosti/">Novosti</a></li>
+				<li><a href="/izvor/mondo/">Mondo</a></li>
+				<li><a href="/izvor/Kurir/">Kurir</a></li>
+				<li><a href="/izvor/Informacija/">Informacija.rs</a></li>
+				<li><a href="/Blog/Izvori.html">Svi izvori >></a></li>
+			</ul>
+		</div>
+<!-- Responsive menu -->
+<div class="responsive_meni">
+<a class="open" href="#nav">meni</a>
+<ul id="nav">
+	<li><a class="meni_vesti" href="#">Vesti</a>
+		<div class="podmeni_vesti" style="display: none;">
+			<ul>
+			<li class="first"><a href="/">[ Vesti ]</a></li>
+			<li><a href="/Politika/">Politika</a></li>
+			<li><a href="/Ekonomija/">Ekonomija</a></li>
+			<li><a href="/Hronika/">Hronika</a></li>
+			<li><a href="/Sport/">Sport</a></li>
+			<li><a href="/Svet/">Svet</a></li>
+			<li><a href="/Drustvo/">Društvo</a></li>
+			<li><a href="/Kultura/">Kultura</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a class="meni_zabava" href="#">Zabava</a>
+		<div class="podmeni_zabava" style="display: none;">
+			<ul>
+				<li class="first"><a href="/Zabava/">[ Zabava ]</a></li>
+				<li><a href="/Zivot/">Život</a></li>
+				<li><a href="/Muzika/">Muzika</a></li>
+				<li><a href="/Filmovi/">Filmovi</a></li>
+				<li><a href="/Turizam/">Turizam</a></li>
+				<li><a href="/Igre/">Igre</a></li>
+				<li><a href="/Zena/">Moda, žene</a></li>
+				<li><a href="/Muski-svet/">Muški svet</a></li>
+				<li><a href="/Blogovi/kat/Izlasci/">Noćni život</a></li>
+				<li><a href="/Desavanja-u-gradu/">Dešavanja</a></li>
+				<li><a href="/Horoskop/">Horoskop</a></li>
+				<li><a href="/Estrada/">Estrada</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a class="meni_razno" href="#">Razno</a>
+		<div class="podmeni_razno" style="display: none;">
+			<ul>
+				<li class="first"><a href="/Razno/">[ Razno ]</a></li>
+				<li><a href="/HiTech/">HiTech</a></li>
+				<li><a href="/Mobilni/">Mobilni</a></li>
+				<li><a href="/Auto-moto/">Auto-moto</a></li>
+				<li><a href="/Zdravlje/">Zdravlje</a></li>
+				<li><a href="/Nauka/">Nauka</a></li>
+				<li><a href="/Dobre-vesti/">Dobre vesti</a></li>
+				<li><a href="/Blogovi/">Blogosfera</a></li>
+				<li><a href="/Reportaze/">Reportaže</a></li>
+				<li><a href="/Ekologija/">Ekologija</a></li>
+				<li><a href="/Gradjevinarstvo/">Građevinstvo</a></li>
+				<li><a href="/Saopstenja/">Saopštenja</a></li>
+				<li><a href="/Intervju/">Stav</a></li>
+				<li><a href="/Posao/">Posao</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a class="meni_region" href="#">Region</a>
+		<div class="podmeni_region" style="display: none;">
+			<ul>
+				<li class="first"><a href="/Region/">[ Region ]</a></li>
+				<li ><a href="/Bosna-i-Hercegovina/">Bosna i Herceg.</a></li>
+				<li><a href="/Republika-Srpska/">Republika Srpska</a></li>
+				<li><a href="/Crna-Gora/">Crna Gora</a></li>
+				<li><a href="/Hrvatska/">Hrvatska</a></li>
+				<li><a href="/Makedonija/">Makedonija</a></li>
+				<li><a href="/Region/">Susedne države</a></li>
+				<li><a href="/Dijaspora/">Dijaspora</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a class="meni_gradovi" href="#">Gradovi</a>
+		<div class="podmeni_gradovi" style="display: none;">
+			<ul>
+			<li class="first"><a href="/Gradovi/">[ Gradovi ]</a></li>
+			<li><a href="/Beogradske/">Beograd</a></li>
+			<li><a href="/Vojvodina/">Vojvodanske vesti</a></li>
+			<li><a href="/Novi-Sad/">Novi Sad</a></li>
+			<li><a href="/Nis/">Niš</a></li>
+			<li><a href="/Ra%C5%A1ka/">Raška oblast</a></li>
+			<li><a href="/Kragujevac/">Kragujevac</a></li>
+			<li><a href="/Bor/"> Bor</a></li>
+			<li><a href="/Krusevac/">Kruševac</a></li>
+			<li><a href="/Jagodina/">Jagodina</a></li>
+			<li><a href="/Subotica/">Subotica</a></li>
+			<li><a href="/Zaje%C4%8Dar/">Zaječar</a></li>
+			<li><a href="/Trstenik/">Trstenik</a></li>
+			<li><a href="/Vrnjacka-Banja/">Vrnjačka Banja</a></li>
+			<li><a href="/Vranje/">Vranje</a></li>
+			<li><a href="/Zrenjanin/">Zrenjanin</a></li>
+			<li><a href="/Leskovac/">Leskovac</a></li>
+			<li><a href="/Aleksinac/">Aleksinac</a></li>
+			<li><a href="/Gradovi/">Ostali gradovi &gt;&gt;</a></li>
+			</ul>
+		</div>
+	</li>
+	<li><a class="meni_izvori" href="#">Izvori</a>
+		<div class="podmeni_izvori" style="display: none;">
+			<ul>
+			<li class="first"><a href="/Blog/Izvori.html">[ Izvori ]</a></li>
+			<li><a href="/izvor/b92/">B92</a></li>
+			<li><a href="/izvor/blic/">Blic</a></li>
+			<li><a href="/izvor/Beta/">Beta</a></li>
+			<li><a href="/izvor/politika/">Politika</a></li>
+			<li><a href="/izvor/press/">Press</a></li>
+			<li><a href="/izvor/Telegraf/">Telegraf</a></li>
+			<li><a href="/izvor/RTS/">RTS</a></li>
+			<li><a href="/izvor/vecernje_novosti/">Novosti</a></li>
+			<li><a href="/izvor/mondo/">Mondo</a></li>
+			<li><a href="/izvor/rtv/">RTV</a></li>
+			<li><a href="/izvor/dw_serbian/">DW</a></li>
+			<li><a href="/izvor/Kurir/">Kurir</a></li>
+			<li><a href="/izvor/Danas/">Danas</a></li>
+			<li><a href="/izvor/Prva/">Prva</a></li>
+			<li><a href="/izvor/Informacija/">Informacija.rs</a></li>
+			<li><a href="/Blog/Izvori.html">Svi izvori >></a></li>
+			</ul>
+		</div>
+	</li>
+	<li id="Arhiva" ><a href="/arhiva/">Arhiva</a></li>
+	<li id="O nama" ><a href="Blog/O-Vesti-rs-sajtu.html">O nama</a></li>
+	<li id="Marketing"><a href="https://static.vesti.rs/mediakit-vesti.zip">Marketing</a></li>
+</ul>
+</div>
+</nav>
+<script type="text/javascript" src="https://static.vesti.rs/vesti/jquery.pageslide.js"></script>
+<div class="clear"></div>
+
+
+<style>
+.mobile_banner {display: none;}
+</style>
+<div class="mobile_banner" id="banner_container_top_under_961" style="margin-top: 15px; margin-bottom: 5px; text-align: center;">
+</div>
+
+<div class="banner-top-wrapper banner-top-wrapper-970"><div class="banner-top banner-970" style="height: 264px; width: 970px; display: block; overflow: hidden;" id="banner_container_top_above_960"></div></div>
+
+<!-- CONTENT -->
+<div class="container">
+<!-- LEFT SIDE -->
+<div class="main-content">
+
+
+<!-- GLAVNA VEST -->
+	<div class="single-news">
+<!-- PRVA VEST -->
+		<div class="text-news" itemscope itemtype="http://schema.org/NewsArticle">
+			<p class="source-inner">Izvor: <a href="/izvor/011vodic/">011vodič.com</a>, <a href="https://www.vesti.rs/arhiva/2019/7/21/" class="lnk_datum">21.Jul.2019</a>, 05:17&nbsp;&nbsp;&nbsp;(ažurirano 02.Apr.2020.)</p>
+			<h1 itemprop="name">Pod velikim ste pritiskom! Očekuje vas VAŽAN poslovni sastanak! Pokažite šta možete!</h1>
+			<a href="https://www.vesti.rs/counter.php?id=12074044" target="_blank" onclick="ga_push(['_trackEvent', 'Izvori', 'Izlaz', '011vodič.com']);" /><img src="https://static.vesti.rs/slike-4/Pod-velikim-ste-pritiskom-Ocekuje-vas-VAZAN-poslovni-sastanak-Pokazite-sta-mozete.jpg" itemprop="image" alt="Pod velikim ste pritiskom! Očekuje vas VAŽAN poslovni sastanak! Pokažite šta možete!" style="max-width: 210px;" /></a>
+			<p id="articleBody" itemprop="articleBody">
+AUTOR: www.astrousluge.com/M.M. DATUM I VREME: 21.07.2019. 05:00 Otkrijte šta vam zvezde predviđaju za danas… Foto: Shutterstock, ilustracija OVAN POSAO: Stabilna situacija na poslovnom planu može da vam da vetar u leđa da počnete da razmišljate o novim projektima. Današnji dan je povoljan za razmišljanje o novim idejama. LJUBAV: Konačno ste odlučili da pokažete svom partneru kako se osećate. Vaša veza nakon ovoga kreće boljim tokom. Spremni ste da uživate u trenucima koje provodite <span class="napomena" style="padding: 7px 0; margin: 7px auto 7px auto; width: 400px;"><a target="_blank" href="/counter.php?id=12074044" onClick="_gaq.push(['_trackEvent', 'Izvori', 'Izlaz', '011vodič.com']);">&gt;&gt; Pročitaj celu vest na sajtu 011vodič.com &lt;&lt;</a></span>  zajedno. ZDRAVLJE: Problemi vezani za krvotok su naglašeni kod vas. Moguće je da ćete biti skloni nekim poteškoćama koje su povezane i sa debelim crevom pa obratite pažnju. NAJJAČI SAMO OSTAJU Mars u Lavu je krenuo po svoje ciljeve! Saznajte kako svaki znak treba da se izbori za SEBE!   BIK POSAO: Sve obaveze koje ste sebi zacrtali ćete ispuniti i mnogo ranije nego što mislite. Ostaje vam dosta slobodnog vremena za opuštanje i odmor koji ste zaista zaslužili. LJUBAV: Očekuje vas novo ljubavno poznanstvo. Ukoliko već imate partnera, planirate zajedničko putovanje. Pred vama je povoljan period da se vašoj vezi posvetite. ZDRAVLJE: Razmišljate o dijeti koja bi vam svakako prijala. Bilo bi dobro da se u pravo vreme posavetujete sa nekim nutricionistom koji vam može dati adekvatne savete. VELIKI NEDELJNI HOROSKOP Blizance očekuje vrela LJUBAVNA AFERA na poslu, a evo koji znak treba da OZBILJNO povede računa o zdravlju! Foto: Shutterstock, ilustracija BLIZANCI POSAO: Moguće je da nemate posao koji ispunjava sve vaše kriterijume i da polako razmišljate o promenama. Spremni ste da se okrenete novim rešenjima za posao i zaradu. LJUBAV: Morali biste da poradite na komunikaciji sa partnerom ako zaista želite da spasete vaš brak. Ljubav i dalje postoji ali je važno da više radite na međusobnoj podršci i razumevanju. ZDRAVLJE: Povedite računa o osetljivim očima. Moguće je da ćete biti skloni nekim manjim […] More<br />
+The post Pod velikim ste pritiskom! Očekuje vas VAŽAN poslovni sastanak! Pokažite šta možete! appeared first on 011vodic.com.</p>
+			<div id="post_ad_1"></div>
+			<div style="display:block; clear:right;">
+			<p class="continue-r"><a href="https://www.vesti.rs/counter.php?id=12074044" onclick="ga_push(['_trackEvent', 'Izvori', 'Izlaz', '011vodič.com']);" target="_blank">Nastavak na 011vodič.com...</a></p><br /><br /><br /><br /><br />
+
+			<div class="facebookshare" style="display:none;"><a class="sb text facebook" href="javascript:fbshare();">Podeli ovo sa prijateljima na Facebook-u</a></div>
+<div id="share-buttons" style="float: right;
+margin-right: 20px;
+margin-top: -30px;">
+
+    <!-- Facebook -->
+    <a href="javascript:fb_share();">
+        <img src="https://simplesharebuttons.com/images/somacro/facebook.png" alt="Facebook" />
+    </a>
+
+	<!-- Twitter -->
+	<a href="javascript:tw_share();">
+		<img src="https://simplesharebuttons.com/images/somacro/twitter.png" alt="Twitter" />
+	</a>
+
+    <!-- Google+ -->
+    <a href="javascript:gp_share();">
+        <img src="https://simplesharebuttons.com/images/somacro/google.png" alt="Google" />
+    </a>
+
+    <!-- LinkedIn -->
+    <a href="javascript:li_share();">
+        <img src="https://simplesharebuttons.com/images/somacro/linkedin.png" alt="LinkedIn" />
+    </a>
+
+    <!-- Pinterest -->
+    <a href="javascript:pi_share();">
+        <img src="https://simplesharebuttons.com/images/somacro/pinterest.png" alt="Pinterest" />
+    </a>
+
+    <!-- Print -->
+    <a href="javascript:;" onclick="window.print()">
+        <img src="https://simplesharebuttons.com/images/somacro/print.png" alt="Print" />
+    </a>
+
+</div>
+
+			<p class="continue-r"></p>
+			</div>
+
+			<script>
+			_gaq.push(['_trackEvent', 'Izvori', 'Prikaz', '011vodič.com']);
+			_gaq.push(['_trackEvent', 'Kategorija', 'Prikaz', 'Zabava']);
+			var share_id=12074044;
+			</script>
+		</div>
+	</div>
+
+<div class="top-news-cont">&nbsp;I drugi pišu o ovome:</div>
+<div class="single-news">
+
+<div class="text-news">
+			<p class="continue-r"><a href="https://www.vesti.rs/Zabava/Upoznacete-osobu-IZ-OKRUZENJA-koja-ce-vas-ostaviti-bez-daha-Sve-vam-ide-od-ruke.html" ><i>011vodič.com</i>: Upoznaćete osobu IZ OKRUŽENJA koja će vas ostaviti bez daha! Sve vam ide od ruke!</a></p>
+</div>
+</div>
+<div class="top-news-cont-inner">&nbsp;Povezane vesti</div>
+<div class="inner-wrapper">
+
+
+		<div class="newest-inner">
+		<a href="https://www.vesti.rs/counter.php?id=12075340" target="_blank" onclick="ga_push(['_trackEvent', 'Izvori', 'Izlaz', '011vodič.com']);" /><img src="https://static.vesti.rs/slike-4/Ovaj-znak-ponekad-ima-i-bolesne-sklonosti-dobro-ga-se-pazite.jpg" alt="Ovaj znak ponekad ima i bolesne sklonosti, dobro ga se pazite!" itemprop="image" /></a>
+		<a href="https://www.vesti.rs/Zabava/Ovaj-znak-ponekad-ima-i-bolesne-sklonosti-dobro-ga-se-pazite-2.html" ><h2>Ovaj znak ponekad ima i bolesne sklonosti, dobro ga se pazite!</h2></a> <p class="source-inner-bottom">Izvor: <a href="/izvor/011vodic/">011vodič.com</a>, 21.Jul.2019</p>
+			<p class="longer-text-inner" itemprop="description">
+Ljudi u ovom znaku bore se za dokazivanje svojih vrednosti. Vole pohvale. Mrze licemerje i nepoštenje. Lako ih čovek može ubediti u svoje stavove. Oni ih prihvataju i za njih se bore kao za svoje. Zbog toga vrlo često drugi imaju više koristi od njihovog rada nego oni sami. Velike su sanjalice....</p>
+			<p class="continue-r"><a href="https://www.vesti.rs/counter.php?id=12075340" target="_blank" onclick="ga_push(['_trackEvent', 'Izvori', 'Izlaz', '011vodič.com']);" >Nastavak na 011vodič.com...</a> </p>
+		</div>
+</div>
+
+
+
+<script>
+var url_location = window.location.href;
+
+function miniwin(url,w,h)
+{
+	window.open(url,"","height="+h+",width="+w+",status=no,toolbar=no,menubar=no,location=no",true);
+}
+var ajax_vote;
+function fb_share() {
+	_gaq.push(['_trackSocial', 'Facebook', 'share', url_location]);
+	ajax_vote(share_id);
+	var url="http://www.facebook.com/sharer.php?u=https%3A%2F%2Fwww.vesti.rs%2FZabava%2FPod-velikim-ste-pritiskom-Ocekuje-vas-VAZAN-poslovni-sastanak-Pokazite-sta-mozete.html&t=Share";
+	miniwin(url,600,400);
+}
+function tw_share() {
+	_gaq.push(['_trackSocial', 'Twitter', 'tweet', url_location]);
+	ajax_vote(share_id);
+	var url="https://twitter.com/share?url=https%3A%2F%2Fwww.vesti.rs%2FZabava%2FPod-velikim-ste-pritiskom-Ocekuje-vas-VAZAN-poslovni-sastanak-Pokazite-sta-mozete.html&amp;text="+encodeURIComponent(document.title);
+	miniwin(url,600,400);
+}
+function gp_share() {
+	_gaq.push(['_trackSocial', 'Google', '+1', url_location]);
+	ajax_vote(share_id);
+	var url="https://plus.google.com/share?url=https%3A%2F%2Fwww.vesti.rs%2FZabava%2FPod-velikim-ste-pritiskom-Ocekuje-vas-VAZAN-poslovni-sastanak-Pokazite-sta-mozete.html";
+	miniwin(url,600,400);
+}
+function li_share() {
+	_gaq.push(['_trackSocial', 'LinkedIn', 'share', url_location]);
+	ajax_vote(share_id);
+	var url="https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fwww.vesti.rs%2FZabava%2FPod-velikim-ste-pritiskom-Ocekuje-vas-VAZAN-poslovni-sastanak-Pokazite-sta-mozete.html&title="+encodeURIComponent(document.title);
+	miniwin(url,600,400);
+}
+function pi_share() {
+	_gaq.push(['_trackSocial', 'Pinterest', 'pin', url_location]);
+	ajax_vote(share_id);
+	var e = document.createElement('script');
+	e.setAttribute('type', 'text/javascript');
+	e.setAttribute('charset', 'UTF-8');
+	e.setAttribute('src', 'http://assets.pinterest.com/js/pinmarklet.js?r=' + Math.random() * 99999999);
+	document.body.appendChild(e);
+}
+
+(function ($) {
+	ajax_vote = function(id){
+		$.ajax({
+			type: "GET",
+			url: "/vote.php?v=p&id="+id,
+			success:function (){
+			}
+		});
+	}
+})(jQuery);
+</script>
+
+
+<div class="newest-inner-last2">
+<div id="dialog-box">
+	<div class="dialog-content">
+		<div id="dialog-message"><span><b>Napomena:</b> Ova vest je automatizovano (softverski) preuzeta sa sajta <a href="https://www.vesti.rs/counter.php?id=12074044"><b><u>011vodič.com</u></b></a>. Nije preneta ručno, niti proverena od strane uredništva portala "Vesti.rs", već je preneta automatski, računajući na savesnost i dobru nameru sajta <a href="https://www.vesti.rs/counter.php?id=12074044"><b><u>011vodič.com</u></b></a>. Ukoliko vest (članak) sadrži netačne navode, vređa nekog, ili krši nečija autorska prava - molimo Vas da nas o tome <a href="http://www.vesti.rs/kontakt.php"><b><u>ODMAH obavestite</u></b></a> obavestite kako bismo uklonili sporni sadržaj.</span></div>
+	</div>
+</div>
+</div>
+
+
+<div id="low_res_sidebar" style="display: none;"></div>
+</div>
+<!-- RIGHT SIDEBAR -->
+	<div class="right-side">
+	<div class="newsletter" id="pretraga">
+		<div class="rigt-block-top"><h2>Pretraga</h2></div>
+			<div class="featrow">
+			<div class="feat-row">
+				<script async src='https://cse.google.com/cse.js?cx=partner-pub-4215876905870354:4169655970'></script><div class="gcse-searchbox-only"></div>
+			</div>
+		</div>
+	</div>
+<div class="banner-box">
+<div id="banner_container_sidebar_300x600_above_960"></div><br /><br /><br /><br />
+</div>
+	<div class="right-block-top" id="popularne_naslov"><h2>Danas u fokusu javnosti</h2></div>
+		<div class="featrow" id="popularne_sadrzaj">
+		<div class="feat-row"><a href="https://www.vesti.rs/Tviter/Ludnica-na-Tviteru-Zvezdini-fudbaleri-u-senci-RTS-ovog-strucnog-konsultanta-foto.html"><img src="https://static.vesti.rs/slike-4/Ludnica-na-Tviteru-Zvezdini-fudbaleri-u-senci-RTS-ovog-strucnog-konsultanta-foto.jpg" /></a><h3 style="margin-bottom: 4px;"><a href="https://www.vesti.rs/Tviter/Ludnica-na-Tviteru-Zvezdini-fudbaleri-u-senci-RTS-ovog-strucnog-konsultanta-foto.html">''Ludnica'' na Tviteru - Zvezdini…</a></h3><p style="width: 175px; float: left;">On nije kao drugi... Posle utakmice više se priča...</p></div><hr /><div class="feat-row"><a href="https://www.vesti.rs/Zabava/Sta-se-sve-desavalo-na-prvoj-sednici-Skupstine-Srbije.html"><img src="https://static.vesti.rs/slike-4/Sta-se-sve-desavalo-na-prvoj-sednici-Skupstine-Srbije.jpg" /></a><h3 style="margin-bottom: 4px;"><a href="https://www.vesti.rs/Zabava/Sta-se-sve-desavalo-na-prvoj-sednici-Skupstine-Srbije.html">Šta se sve dešavalo na prvoj…</a></h3><p style="width: 175px; float: left;">
+The post Šta se sve dešavalo na prvoj sednici Skupštine...</p></div><hr /><div class="feat-row"><a href="https://www.vesti.rs/Drustvo/TRAGEDIJA-KOD-CRESA-Brod-se-zapalio-i-potonuo-stradao-muskarac.html"><img src="https://static.vesti.rs/slike-4/TRAGEDIJA-KOD-CRESA-Brod-se-zapalio-i-potonuo-stradao-muskarac.jpg" /></a><h3 style="margin-bottom: 4px;"><a href="https://www.vesti.rs/Drustvo/TRAGEDIJA-KOD-CRESA-Brod-se-zapalio-i-potonuo-stradao-muskarac.html">TRAGEDIJA KOD CRESA: Brod se zapalio…</a></h3><p style="width: 175px; float: left;">U požaru koji je zahvatio brod kod ostrva Cresa stradao...</p></div><hr />
+	</div>
+		<!-- Social Media Buttons - CSS3 -->
+		<div class="rigt-block-top-social">
+			<ul class="social" id="css3">
+				<li class="facebook">
+					<a href="http://www.facebook.com/Vesti.rs" target="_blank" rel="nofollow"><strong>Facebook</strong></a>
+				</li>
+				<li class="twitter">
+					<a href="https://twitter.com/vestirs" target="_blank" rel="nofollow"><strong>Twitter</strong></a>
+				</li>
+				<li class="vesti-android">
+					<a href="https://play.google.com/store/apps/details?id=com.zeussoftware.vesti_rs" target="_blank" rel="nofollow"><strong>Vesti na Androidu</strong></a>
+				</li>
+				<li class="vesti-ios">
+					<a href="https://itunes.apple.com/us/app/vesti-rs/id591591123?mt=8" target="_blank" rel="nofollow"><strong>Vesti na iOS</strong></a>
+				</li>
+			</ul>
+		</div>
+
+
+	<!-- SCROLLING NEWS -->
+		<div class="rigt-block-top"><h2>Najnovije vesti</h2></div>
+		<div id="sidebar">
+        <ul class="spy" style="height: 265px; overflow: hidden;">
+<li><a href="https://www.vesti.rs/Vesti/Sindikat-pravosudja-odgovorio-mandatarki-Vlada-nas-zatrpava-propisima.html" title="View round"><img src="https://static.vesti.rs/mali_logo2.png" /></a><h5><span class="lnk">13:09: </span> <a href="https://www.vesti.rs/Vesti/Sindikat-pravosudja-odgovorio-mandatarki-Vlada-nas-zatrpava-propisima.html">Sindikat pravosuđa odgovorio mandatarki: Vlada nas zatrpava prop...</a></h5></li><li><a href="https://www.vesti.rs/Vesti/Hitlerove-beleske-prodate-na-aukciji-za-34-000-evra.html" title="View round"><img src="https://static.vesti.rs/slike-4/tmb_Hitlerove-beleske-prodate-na-aukciji-za-34-000-evra.jpg" /></a><h5><span class="lnk">13:09: </span> <a href="https://www.vesti.rs/Vesti/Hitlerove-beleske-prodate-na-aukciji-za-34-000-evra.html">
+					Hitlerove beleške prodate na aukciji za 34.000 evra ...</a></h5></li><li><a href="https://www.vesti.rs/Gradovi/KK-14.html" title="View round"><img src="https://static.vesti.rs/slike-4/tmb_KK-14.jpg" /></a><h5><span class="lnk">13:08: </span> <a href="https://www.vesti.rs/Gradovi/KK-14.html">ОKТОБАРСKЕ НАГРАДЕ ЗА ХУМАНИТАРНИ ...</a></h5></li><li><a href="https://www.vesti.rs/Estrada/6-SATI-6-MILIONA-PREGLEDA-Ceo-svet-danas-bruji-o-ovoj-pesmi-VIDEO.html" title="View round"><img src="https://static.vesti.rs/slike-4/tmb_6-SATI-6-MILIONA-PREGLEDA-Ceo-svet-danas-bruji-o-ovoj-pesmi-VIDEO.jpg" /></a><h5><span class="lnk">13:08: </span> <a href="https://www.vesti.rs/Estrada/6-SATI-6-MILIONA-PREGLEDA-Ceo-svet-danas-bruji-o-ovoj-pesmi-VIDEO.html">6 SATI, 6 MILIONA PREGLEDA: Ceo svet danas bruji o ovoj pesmi! (V...</a></h5></li><li><a href="https://www.vesti.rs/Vranje/Uhapsen-otac-zbog-sumnje-da-je-zakljucao-devojcicu-u-automobilu-dok-je-gledao-utakmicu-u-kladionici.html" title="View round"><img src="https://static.vesti.rs/mali_logo2.png" /></a><h5><span class="lnk">13:08: </span> <a href="https://www.vesti.rs/Vranje/Uhapsen-otac-zbog-sumnje-da-je-zakljucao-devojcicu-u-automobilu-dok-je-gledao-utakmicu-u-kladionici.html">Uhapšen otac zbog sumnje da je zaključao devojčicu u automobil...</a></h5></li><li><a href="https://www.vesti.rs/Estrada/HITNO-OPERISAN-ZARKO-LAUSEVIC-Cekaju-se-histopatoloski-rezultati-Evo-kako-je-prosla-OPERACIJA.html" title="View round"><img src="https://static.vesti.rs/slike-4/tmb_HITNO-OPERISAN-ZARKO-LAUSEVIC-Cekaju-se-histopatoloski-rezultati-Evo-kako-je-prosla-OPERACIJA.jpg" /></a><h5><span class="lnk">13:08: </span> <a href="https://www.vesti.rs/Estrada/HITNO-OPERISAN-ZARKO-LAUSEVIC-Cekaju-se-histopatoloski-rezultati-Evo-kako-je-prosla-OPERACIJA.html">HITNO OPERISAN ŽARKO LAUŠEVIĆ! Čekaju se histopatološki rezu...</a></h5></li><li><a href="https://www.vesti.rs/Vesti/Beograd-u-borbi-protiv-zagadjenja-vazduha.html" title="View round"><img src="https://static.vesti.rs/slike-4/tmb_Beograd-u-borbi-protiv-zagadjenja-vazduha.jpg" /></a><h5><span class="lnk">13:08: </span> <a href="https://www.vesti.rs/Vesti/Beograd-u-borbi-protiv-zagadjenja-vazduha.html">Beograd u borbi protiv zagadjenja vazduha </a></h5></li><li><a href="https://www.vesti.rs/Novi-Sad/Kako-je-prevareni-Beogradjanin-sa-neispravnom-ves-masinom-stigao-do-Vucicevog-kabineta.html" title="View round"><img src="https://static.vesti.rs/slike-4/tmb_Kako-je-prevareni-Beogradjanin-sa-neispravnom-ves-masinom-stigao-do-Vucicevog-kabineta.jpg" /></a><h5><span class="lnk">13:08: </span> <a href="https://www.vesti.rs/Novi-Sad/Kako-je-prevareni-Beogradjanin-sa-neispravnom-ves-masinom-stigao-do-Vucicevog-kabineta.html">Kako je prevareni Beograđanin sa neispravnom veš-mašinom stiga...</a></h5></li><li><a href="https://www.vesti.rs/Sport/Visoka-sportska-i-zdravstvena-skola-obelezila-Dan-skole.html" title="View round"><img src="https://static.vesti.rs/mali_logo2.png" /></a><h5><span class="lnk">13:07: </span> <a href="https://www.vesti.rs/Sport/Visoka-sportska-i-zdravstvena-skola-obelezila-Dan-skole.html">Visoka sportska i zdravstvena škola obeležila Dan škole</a></h5></li><li><a href="https://www.vesti.rs/Gradovi/-9321.html" title="View round"><img src="https://static.vesti.rs/mali_logo2.png" /></a><h5><span class="lnk">13:06: </span> <a href="https://www.vesti.rs/Gradovi/-9321.html">СЛЕДЕЋЕ НЕДЕЉЕ У АПАТИНСКОМ ...</a></h5></li><li><a href="https://www.vesti.rs/Sport/Tipasrevic-i-Krajinovic-zavrsili-saradnju.html" title="View round"><img src="https://static.vesti.rs/mali_logo2.png" /></a><h5><span class="lnk">13:06: </span> <a href="https://www.vesti.rs/Sport/Tipasrevic-i-Krajinovic-zavrsili-saradnju.html">Tipasrević i Krajinović završili saradnju</a></h5></li><li><a href="https://www.vesti.rs/Vesti/Virus-ne-razume-administraciju-uvedite-nam-policijski-cas-2.html" title="View round"><img src="https://static.vesti.rs/slike-4/tmb_Virus-ne-razume-administraciju-uvedite-nam-policijski-cas.jpg" /></a><h5><span class="lnk">13:05: </span> <a href="https://www.vesti.rs/Vesti/Virus-ne-razume-administraciju-uvedite-nam-policijski-cas-2.html">"Virus ne razume administraciju, uvedite nam policijski čas"</a></h5></li><li><a href="https://www.vesti.rs/HiTech/test-Honor-Watch-GS-Pro-Vojnicka-izdrzljivost-u-modernom-telu-2.html" title="View round"><img src="https://static.vesti.rs/slike-4/tmb_test-Honor-Watch-GS-Pro-Vojnicka-izdrzljivost-u-modernom-telu.jpg" /></a><h5><span class="lnk">13:05: </span> <a href="https://www.vesti.rs/HiTech/test-Honor-Watch-GS-Pro-Vojnicka-izdrzljivost-u-modernom-telu-2.html">[test] Honor Watch GS Pro: Vojnička izdržljivost u modernom tel...</a></h5></li><li><a href="https://www.vesti.rs/Coronavirus/Njemacka-planira-da-potpomogne-turizam-2.html" title="View round"><img src="https://static.vesti.rs/slike-4/tmb_Njemacka-planira-da-potpomogne-turizam-2.jpg" /></a><h5><span class="lnk">13:04: </span> <a href="https://www.vesti.rs/Coronavirus/Njemacka-planira-da-potpomogne-turizam-2.html">Njemačka planira da potpomogne turizam</a></h5></li><li><a href="https://www.vesti.rs/Vesti/Konferencija-za-medije-Kriznog-staba-u-15h-pratite-na-B92-net-2.html" title="View round"><img src="https://static.vesti.rs/slike-4/tmb_Konferencija-za-medije-Kriznog-staba-u-15h-pratite-na-B92-net.jpg" /></a><h5><span class="lnk">13:02: </span> <a href="https://www.vesti.rs/Vesti/Konferencija-za-medije-Kriznog-staba-u-15h-pratite-na-B92-net-2.html">Konferencija za medije Kriznog štaba u 15h, pratite na B92.net</a></h5></li><li><a href="https://www.vesti.rs/Tviter/Ovaj-izazov-je-veoma-popularan-na-drustvenim-mrezama-i-da-dopasce-vam-se.html" title="View round"><img src="https://static.vesti.rs/slike-4/tmb_Ovaj-izazov-je-veoma-popularan-na-drustvenim-mrezama-i-da-dopasce-vam-se.png" /></a><h5><span class="lnk">13:02: </span> <a href="https://www.vesti.rs/Tviter/Ovaj-izazov-je-veoma-popularan-na-drustvenim-mrezama-i-da-dopasce-vam-se.html">Ovaj izazov je veoma popularan na društvenim mrežama i da, dopa...</a></h5></li><li><a href="https://www.vesti.rs/Svetsko-prvenstvo/FIFA-Zrijeb-kvalifikacija-za-Mundijal-u-Kataru-7-decembra.html" title="View round"><img src="https://static.vesti.rs/mali_logo2.png" /></a><h5><span class="lnk">13:02: </span> <a href="https://www.vesti.rs/Svetsko-prvenstvo/FIFA-Zrijeb-kvalifikacija-za-Mundijal-u-Kataru-7-decembra.html">FIFA: Žrijeb kvalifikacija za Mundijal u Kataru 7. decembra</a></h5></li><li><a href="https://www.vesti.rs/Horoskop/IDEALAN-MUSKARAC-ZA-SVAKI-HOROSKOPSKI-ZNAK-Izbegni-greske-i-pronadji-gospodina-savrsenog.html" title="View round"><img src="https://static.vesti.rs/slike-4/tmb_IDEALAN-MUSKARAC-ZA-SVAKI-HOROSKOPSKI-ZNAK-Izbegni-greske-i-pronadji-gospodina-savrsenog.jpg" /></a><h5><span class="lnk">13:02: </span> <a href="https://www.vesti.rs/Horoskop/IDEALAN-MUSKARAC-ZA-SVAKI-HOROSKOPSKI-ZNAK-Izbegni-greske-i-pronadji-gospodina-savrsenog.html">IDEALAN MUŠKARAC ZA SVAKI HOROSKOPSKI ZNAK: Izbegni greške i pr...</a></h5></li><li><a href="https://www.vesti.rs/Coronavirus/Imunolog-za-021-Da-li-je-moguce-jacati-imunitet-cinkom-i-selenom.html" title="View round"><img src="https://static.vesti.rs/mali_logo2.png" /></a><h5><span class="lnk">13:02: </span> <a href="https://www.vesti.rs/Coronavirus/Imunolog-za-021-Da-li-je-moguce-jacati-imunitet-cinkom-i-selenom.html">Imunolog za 021: Da li je moguće jačati imunitet cinkom i selen...</a></h5></li><li><a href="https://www.vesti.rs/Novi-Sad/Za-mesec-dana-dva-puta-unisten-tek-rekonstruisan-travnjak-u-Petrovaradinu.html" title="View round"><img src="https://static.vesti.rs/slike-4/tmb_Za-mesec-dana-dva-puta-unisten-tek-rekonstruisan-travnjak-u-Petrovaradinu.jpg" /></a><h5><span class="lnk">13:01: </span> <a href="https://www.vesti.rs/Novi-Sad/Za-mesec-dana-dva-puta-unisten-tek-rekonstruisan-travnjak-u-Petrovaradinu.html">Za mesec dana dva puta uništen tek rekonstruisan travnjak u Petr...</a></h5></li><li><a href="https://www.vesti.rs/fudbal/ZIDANU-SE-NE-PISE-DOBRO-Real-Madrid-kontaktirao-Poketina-FOTO.html" title="View round"><img src="https://static.vesti.rs/slike-4/tmb_ZIDANU-SE-NE-PISE-DOBRO-Real-Madrid-kontaktirao-Poketina-FOTO.jpg" /></a><h5><span class="lnk">13:01: </span> <a href="https://www.vesti.rs/fudbal/ZIDANU-SE-NE-PISE-DOBRO-Real-Madrid-kontaktirao-Poketina-FOTO.html">ZIDANU SE NE PIŠE DOBRO: Real Madrid kontaktirao Poketina?! (FOT...</a></h5></li><li><a href="https://www.vesti.rs/Hronika/Drzava-naredne-godine-ocekuje-rast-od-sest-odsto-Svetska-banka-prognozira-2-9.html" title="View round"><img src="https://static.vesti.rs/slike-4/tmb_Drzava-naredne-godine-ocekuje-rast-od-sest-odsto-Svetska-banka-prognozira-2-9.jpg" /></a><h5><span class="lnk">13:01: </span> <a href="https://www.vesti.rs/Hronika/Drzava-naredne-godine-ocekuje-rast-od-sest-odsto-Svetska-banka-prognozira-2-9.html">Država naredne godine očekuje rast od šest odsto, Svetska bank...</a></h5></li><li><a href="https://www.vesti.rs/Kultura/Rudolf-Djulijani-Osramocen.html" title="View round"><img src="https://static.vesti.rs/slike-4/tmb_Rudolf-Djulijani-Osramocen.jpg" /></a><h5><span class="lnk">13:01: </span> <a href="https://www.vesti.rs/Kultura/Rudolf-Djulijani-Osramocen.html">Rudolf Đulijani: Osramoćen</a></h5></li><li><a href="https://www.vesti.rs/Sport/Luka-Jovic-ne-prestaje-da-sokira.html" title="View round"><img src="https://static.vesti.rs/slike-4/tmb_Luka-Jovic-ne-prestaje-da-sokira.jpg" /></a><h5><span class="lnk">13:01: </span> <a href="https://www.vesti.rs/Sport/Luka-Jovic-ne-prestaje-da-sokira.html">Luka Jović ne prestaje da šokira?!</a></h5></li><li><a href="https://www.vesti.rs/Sport/Fantazi-PL-Glavna-vest-tim-morate-da-namestite-danas-ovo-su-saveti.html" title="View round"><img src="https://static.vesti.rs/slike-4/tmb_Fantazi-PL-Glavna-vest-tim-morate-da-namestite-danas-ovo-su-saveti.jpg" /></a><h5><span class="lnk">13:01: </span> <a href="https://www.vesti.rs/Sport/Fantazi-PL-Glavna-vest-tim-morate-da-namestite-danas-ovo-su-saveti.html">Fantazi PL - Glavna vest, tim morate da namestite danas, ovo su s...</a></h5></li><li><a href="https://www.vesti.rs/Zdravlje/Kako-da-promenimo-ocekivanja-da-bismo-stvarno-uzivali-u-vezi.html" title="View round"><img src="https://static.vesti.rs/slike-4/tmb_Kako-da-promenimo-ocekivanja-da-bismo-stvarno-uzivali-u-vezi.jpg" /></a><h5><span class="lnk">13:01: </span> <a href="https://www.vesti.rs/Zdravlje/Kako-da-promenimo-ocekivanja-da-bismo-stvarno-uzivali-u-vezi.html">Kako da promenimo očekivanja da bismo stvarno uživali u vezi</a></h5></li><li><a href="https://www.vesti.rs/Grip/Rusi-rade-na-jedinstvenoj-vakcini-protiv-kovida-19-i-gripa.html" title="View round"><img src="https://static.vesti.rs/mali_logo2.png" /></a><h5><span class="lnk">13:00: </span> <a href="https://www.vesti.rs/Grip/Rusi-rade-na-jedinstvenoj-vakcini-protiv-kovida-19-i-gripa.html">Rusi rade na jedinstvenoj vakcini protiv kovida 19 i gripa</a></h5></li><li><a href="https://www.vesti.rs/Coronavirus/Predsednik-Sindikata-lekara-i-farmaceuta-Politicari-i-javne-licnosti-neozbilji-po-pitanju-korone.html" title="View round"><img src="https://static.vesti.rs/slike-4/tmb_Predsednik-Sindikata-lekara-i-farmaceuta-Politicari-i-javne-licnosti-neozbilji-po-pitanju-korone.jpg" /></a><h5><span class="lnk">12:59: </span> <a href="https://www.vesti.rs/Coronavirus/Predsednik-Sindikata-lekara-i-farmaceuta-Politicari-i-javne-licnosti-neozbilji-po-pitanju-korone.html">Predsednik Sindikata lekara i farmaceuta: Političari i javne li...</a></h5></li><li><a href="https://www.vesti.rs/Vojvodina/LSV-Novi-most-da-ponese-ime-23-oktobra.html" title="View round"><img src="https://static.vesti.rs/slike-4/tmb_LSV-Novi-most-da-ponese-ime-23-oktobra.jpg" /></a><h5><span class="lnk">12:59: </span> <a href="https://www.vesti.rs/Vojvodina/LSV-Novi-most-da-ponese-ime-23-oktobra.html">LSV: Novi most da ponese ime 23. oktobra</a></h5></li><li><a href="https://www.vesti.rs/Grip/Zasto-je-jod-kljucan-za-imunitet.html" title="View round"><img src="https://static.vesti.rs/slike-4/tmb_Zasto-je-jod-kljucan-za-imunitet.jpg" /></a><h5><span class="lnk">12:59: </span> <a href="https://www.vesti.rs/Grip/Zasto-je-jod-kljucan-za-imunitet.html">Zašto je jod ključan za imunitet?</a></h5></li><li><a href="https://www.vesti.rs/Ekonomija/U-Srbiji-neki-zive-bolje-nego-pre-korone-Velika-vecina-zadovoljna-merama-drzave-2.html" title="View round"><img src="https://static.vesti.rs/slike-4/tmb_U-Srbiji-neki-zive-bolje-nego-pre-korone-Velika-vecina-zadovoljna-merama-drzave.jpg" /></a><h5><span class="lnk">12:59: </span> <a href="https://www.vesti.rs/Ekonomija/U-Srbiji-neki-zive-bolje-nego-pre-korone-Velika-vecina-zadovoljna-merama-drzave-2.html">U Srbiji neki žive bolje nego pre korone: Velika većina zadovol...</a></h5></li><li><a href="https://www.vesti.rs/Coronavirus/Nemacka-pred-novim-lokdaunom.html" title="View round"><img src="https://static.vesti.rs/mali_logo2.png" /></a><h5><span class="lnk">12:58: </span> <a href="https://www.vesti.rs/Coronavirus/Nemacka-pred-novim-lokdaunom.html">Nemačka pred novim lokdaunom?</a></h5></li><li><a href="https://www.vesti.rs/Ve%C4%8Diti-derbi/MOREIRA-UTISAO-MARAKANU-Stojke-dotukao-Delije-i-kupio-Grobare-za-sva-vremena-OPROSTITE-MI-MOJU-RUZNU-PROSLOST-VIDEO.html" title="View round"><img src="https://static.vesti.rs/slike-4/tmb_MOREIRA-UTISAO-MARAKANU-Stojke-dotukao-Delije-i-kupio-Grobare-za-sva-vremena-OPROSTITE-MI-MOJU-RUZNU-PROSLOST-VIDEO.jpg" /></a><h5><span class="lnk">12:58: </span> <a href="https://www.vesti.rs/Ve%C4%8Diti-derbi/MOREIRA-UTISAO-MARAKANU-Stojke-dotukao-Delije-i-kupio-Grobare-za-sva-vremena-OPROSTITE-MI-MOJU-RUZNU-PROSLOST-VIDEO.html">MOREIRA UTIŠAO MARAKANU! Stojke dotukao Delije i kupio Grobare z...</a></h5></li><li><a href="https://www.vesti.rs/Tenis/Tipsarevic-i-Krajinovic-okoncali-saradnju-2.html" title="View round"><img src="https://static.vesti.rs/slike-4/tmb_Tipsarevic-i-Krajinovic-okoncali-saradnju.jpg" /></a><h5><span class="lnk">12:58: </span> <a href="https://www.vesti.rs/Tenis/Tipsarevic-i-Krajinovic-okoncali-saradnju-2.html">Tipsarević i Krajinović okončali saradnju</a></h5></li><li><a href="https://www.vesti.rs/Vesti/Uzas-u-Novom-Sadu-Dete-satima-bilo-zakljucano-u-automobilu.html" title="View round"><img src="https://static.vesti.rs/slike-4/tmb_Uzas-u-Novom-Sadu-Dete-satima-bilo-zakljucano-u-automobilu.jpg" /></a><h5><span class="lnk">12:58: </span> <a href="https://www.vesti.rs/Vesti/Uzas-u-Novom-Sadu-Dete-satima-bilo-zakljucano-u-automobilu.html">Užas u Novom Sadu: Dete satima bilo zaključano u automobilu</a></h5></li><li><a href="https://www.vesti.rs/Coronavirus/Skok-cena-psenice-i-kukuruza-korona-i-drugi-faktori.html" title="View round"><img src="https://static.vesti.rs/slike-4/tmb_Skok-cena-psenice-i-kukuruza-korona-i-drugi-faktori.jpg" /></a><h5><span class="lnk">12:58: </span> <a href="https://www.vesti.rs/Coronavirus/Skok-cena-psenice-i-kukuruza-korona-i-drugi-faktori.html">Skok cena pšenice i kukuruza - korona i drugi faktori</a></h5></li><li><a href="https://www.vesti.rs/Ekonomija/Norveska-pomaze-zaposljavanje-mladih-u-Srbiji.html" title="View round"><img src="https://static.vesti.rs/slike-4/tmb_Norveska-pomaze-zaposljavanje-mladih-u-Srbiji.jpg" /></a><h5><span class="lnk">12:58: </span> <a href="https://www.vesti.rs/Ekonomija/Norveska-pomaze-zaposljavanje-mladih-u-Srbiji.html">Norveška pomaže zapošljavanje mladih u Srbiji</a></h5></li><li><a href="https://www.vesti.rs/Coronavirus/Majkrosoft-produzava-rad-od-kuce.html" title="View round"><img src="https://static.vesti.rs/slike-4/tmb_Majkrosoft-produzava-rad-od-kuce.jpg" /></a><h5><span class="lnk">12:58: </span> <a href="https://www.vesti.rs/Coronavirus/Majkrosoft-produzava-rad-od-kuce.html">Majkrosoft produžava rad od kuće</a></h5></li><li><a href="https://www.vesti.rs/Estrada/U-UTORAK-STIZU-PAPIRI-PLATICETE-TROSKOVE-Djedovic-do-detalja-otkrio-sta-se-desilo-na-SASLUSANJU.html" title="View round"><img src="https://static.vesti.rs/slike-4/tmb_U-UTORAK-STIZU-PAPIRI-PLATICETE-TROSKOVE-Djedovic-do-detalja-otkrio-sta-se-desilo-na-SASLUSANJU.jpg" /></a><h5><span class="lnk">12:56: </span> <a href="https://www.vesti.rs/Estrada/U-UTORAK-STIZU-PAPIRI-PLATICETE-TROSKOVE-Djedovic-do-detalja-otkrio-sta-se-desilo-na-SASLUSANJU.html">"U UTORAK STIŽU PAPIRI, PLATIĆETE TROŠKOVE" Đedović do detal...</a></h5></li><li><a href="https://www.vesti.rs/Svetsko-prvenstvo/Zreb-kvalifikacija-za-Mundijal-u-Kataru-7-decembra-2.html" title="View round"><img src="https://static.vesti.rs/mali_logo2.png" /></a><h5><span class="lnk">12:56: </span> <a href="https://www.vesti.rs/Svetsko-prvenstvo/Zreb-kvalifikacija-za-Mundijal-u-Kataru-7-decembra-2.html">Žreb kvalifikacija za Mundijal u Kataru 7. decembra</a></h5></li><li><a href="https://www.vesti.rs/Coronavirus/Ministar-Lucic-pozitivan-na-virus-korona.html" title="View round"><img src="https://static.vesti.rs/mali_logo2.png" /></a><h5><span class="lnk">12:56: </span> <a href="https://www.vesti.rs/Coronavirus/Ministar-Lucic-pozitivan-na-virus-korona.html">Ministar Lučić pozitivan na virus korona</a></h5></li><li><a href="https://www.vesti.rs/Vesti/VSTS-BiH-imenovao-nosioce-pravosudnih-funkcija-11.html" title="View round"><img src="https://static.vesti.rs/mali_logo2.png" /></a><h5><span class="lnk">12:56: </span> <a href="https://www.vesti.rs/Vesti/VSTS-BiH-imenovao-nosioce-pravosudnih-funkcija-11.html">VSTS BiH imenovao nosioce pravosudnih funkcija</a></h5></li><li><a href="https://www.vesti.rs/Evropska-Unija/Borel-Svi-u-regionu-da-podrze-proces-dijaloga-Beograda-i-Pristine.html" title="View round"><img src="https://static.vesti.rs/slike-4/tmb_Borel-Svi-u-regionu-da-podrze-proces-dijaloga-Beograda-i-Pristine.jpg" /></a><h5><span class="lnk">12:54: </span> <a href="https://www.vesti.rs/Evropska-Unija/Borel-Svi-u-regionu-da-podrze-proces-dijaloga-Beograda-i-Pristine.html">Borel: Svi u regionu da podrže proces dijaloga Beograda i Prišt...</a></h5></li><li><a href="https://www.vesti.rs/Coronavirus/Korona-se-siri-Srpskom-SLEDE-RIGOROZNIJE-MERE.html" title="View round"><img src="https://static.vesti.rs/mali_logo2.png" /></a><h5><span class="lnk">12:53: </span> <a href="https://www.vesti.rs/Coronavirus/Korona-se-siri-Srpskom-SLEDE-RIGOROZNIJE-MERE.html">Korona se širi Srpskom, SLEDE RIGOROZNIJE MERE</a></h5></li><li><a href="https://www.vesti.rs/Vesti/Vojnicki-pasulj-najbolje-okrepljenje-pred-teske-poslepodnevne-sastanke-FOTO-2.html" title="View round"><img src="https://static.vesti.rs/slike-4/tmb_Vojnicki-pasulj-najbolje-okrepljenje-pred-teske-poslepodnevne-sastanke-FOTO.jpg" /></a><h5><span class="lnk">12:53: </span> <a href="https://www.vesti.rs/Vesti/Vojnicki-pasulj-najbolje-okrepljenje-pred-teske-poslepodnevne-sastanke-FOTO-2.html">"Vojnički pasulj - najbolje okrepljenje pred teške poslepodnevn...</a></h5></li><li><a href="https://www.vesti.rs/Kultura/Sesnaesto-izdanje-festivala-Slobodna-zona-Horizonti-Balkana-Koja-zemlja-se-zove-dom.html" title="View round"><img src="https://static.vesti.rs/slike-4/tmb_Sesnaesto-izdanje-festivala-Slobodna-zona-Horizonti-Balkana-Koja-zemlja-se-zove-dom.jpg" /></a><h5><span class="lnk">12:53: </span> <a href="https://www.vesti.rs/Kultura/Sesnaesto-izdanje-festivala-Slobodna-zona-Horizonti-Balkana-Koja-zemlja-se-zove-dom.html">Šesnaesto izdanje festivala Slobodna zona: Horizonti Balkana - K...</a></h5></li><li><a href="https://www.vesti.rs/Partizan/Za-Partizan-igraju-igraci-koji-to-ne-mogu-ali-su-prisiljeni-da-ih-stavljaju-3.html" title="View round"><img src="https://static.vesti.rs/slike-4/tmb_Za-Partizan-igraju-igraci-koji-to-ne-mogu-ali-su-prisiljeni-da-ih-stavljaju.jpg" /></a><h5><span class="lnk">12:52: </span> <a href="https://www.vesti.rs/Partizan/Za-Partizan-igraju-igraci-koji-to-ne-mogu-ali-su-prisiljeni-da-ih-stavljaju-3.html">"Za Partizan igraju igrači koji to ne mogu, ali su prisiljeni da...</a></h5></li><li><a href="https://www.vesti.rs/Rafael-Nadal/Nadal-Licni-momenti-vazniji-od-profesionalnih.html" title="View round"><img src="https://static.vesti.rs/mali_logo2.png" /></a><h5><span class="lnk">12:52: </span> <a href="https://www.vesti.rs/Rafael-Nadal/Nadal-Licni-momenti-vazniji-od-profesionalnih.html">Nadal: Lični momenti važniji od profesionalnih</a></h5></li><li><a href="https://www.vesti.rs/Zabava/BILA-MU-I-OTAC-I-MAJKA-Ovako-izgleda-sin-Milice-Milse-kojeg-je-RODILA-NA-CETVRTOJ-GODINI-STUDIJA.html" title="View round"><img src="https://static.vesti.rs/mali_logo2.png" /></a><h5><span class="lnk">12:52: </span> <a href="https://www.vesti.rs/Zabava/BILA-MU-I-OTAC-I-MAJKA-Ovako-izgleda-sin-Milice-Milse-kojeg-je-RODILA-NA-CETVRTOJ-GODINI-STUDIJA.html">BILA MU I OTAC I MAJKA Ovako izgleda sin Milice Milše kojeg je R...</a></h5></li><li><a href="https://www.vesti.rs/Liga-%C5%A0ampiona/Zidan-nikad-nije-bio-u-tezoj-poziciji-El-Klasiko-i-Gladbah-odlucuju-o-sudbini.html" title="View round"><img src="https://static.vesti.rs/mali_logo2.png" /></a><h5><span class="lnk">12:52: </span> <a href="https://www.vesti.rs/Liga-%C5%A0ampiona/Zidan-nikad-nije-bio-u-tezoj-poziciji-El-Klasiko-i-Gladbah-odlucuju-o-sudbini.html">Zidan nikad nije bio u težoj poziciji: El Klasiko i Gladbah odlu...</a></h5></li><li><a href="https://www.vesti.rs/Tenis/Raonic-odustao-Dimitrov-bez-kapi-znoja-u-polufinalu.html" title="View round"><img src="https://static.vesti.rs/mali_logo2.png" /></a><h5><span class="lnk">12:52: </span> <a href="https://www.vesti.rs/Tenis/Raonic-odustao-Dimitrov-bez-kapi-znoja-u-polufinalu.html">Raonić odustao, Dimitrov bez kapi znoja u polufinalu</a></h5></li><li><a href="https://www.vesti.rs/Ko%C5%A1arka/Kosarkasi-Sloge-iz-Kraljeva-Napredak-nije-naivan.html" title="View round"><img src="https://static.vesti.rs/slike-4/tmb_Kosarkasi-Sloge-iz-Kraljeva-Napredak-nije-naivan.jpg" /></a><h5><span class="lnk">12:52: </span> <a href="https://www.vesti.rs/Ko%C5%A1arka/Kosarkasi-Sloge-iz-Kraljeva-Napredak-nije-naivan.html">Košarkaši Sloge iz Kraljeva: Napredak nije naivan</a></h5></li><li><a href="https://www.vesti.rs/Zena/Jednostavnim-TESTOM-proverite-da-li-vasa-beba-DOBRO-CUJE-i-resite-se-svih-nedoumica.html" title="View round"><img src="https://static.vesti.rs/slike-4/tmb_Jednostavnim-TESTOM-proverite-da-li-vasa-beba-DOBRO-CUJE-i-resite-se-svih-nedoumica.jpg" /></a><h5><span class="lnk">12:52: </span> <a href="https://www.vesti.rs/Zena/Jednostavnim-TESTOM-proverite-da-li-vasa-beba-DOBRO-CUJE-i-resite-se-svih-nedoumica.html">Jednostavnim TESTOM proverite da li vaša beba DOBRO ČUJE i re...</a></h5></li><li><a href="https://www.vesti.rs/Vesti/UniCredit-najbolja-banka-sa-drustvenim-uticajem-u-Evropi.html" title="View round"><img src="https://static.vesti.rs/mali_logo2.png" /></a><h5><span class="lnk">12:52: </span> <a href="https://www.vesti.rs/Vesti/UniCredit-najbolja-banka-sa-drustvenim-uticajem-u-Evropi.html">UniCredit najbolja banka sa društvenim uticajem u Evropi</a></h5></li><li><a href="https://www.vesti.rs/Vesti/SDS-Semberije-Nastaviti-infrastrukturno-uredjenje-Gojsovac-2.html" title="View round"><img src="https://static.vesti.rs/mali_logo2.png" /></a><h5><span class="lnk">12:52: </span> <a href="https://www.vesti.rs/Vesti/SDS-Semberije-Nastaviti-infrastrukturno-uredjenje-Gojsovac-2.html">SDS Semberije: Nastaviti infrastrukturno uređenje Gojsovac</a></h5></li><li><a href="https://www.vesti.rs/Vesti/A-sta-kazu-gradjani-Srbije-Vakcine-nece-mere-hoce-2.html" title="View round"><img src="https://static.vesti.rs/slike-4/tmb_A-sta-kazu-gradjani-Srbije-Vakcine-nece-mere-hoce.jpg" /></a><h5><span class="lnk">12:50: </span> <a href="https://www.vesti.rs/Vesti/A-sta-kazu-gradjani-Srbije-Vakcine-nece-mere-hoce-2.html">A šta kažu građani Srbije: Vakcine neće, mere hoće</a></h5></li><li><a href="https://www.vesti.rs/Vesti/U-Rumuniji-prvi-put-vise-od-5-000-novozarazenih-2.html" title="View round"><img src="https://static.vesti.rs/slike-4/tmb_U-Rumuniji-prvi-put-vise-od-5-000-novozarazenih.jpg" /></a><h5><span class="lnk">12:49: </span> <a href="https://www.vesti.rs/Vesti/U-Rumuniji-prvi-put-vise-od-5-000-novozarazenih-2.html">U Rumuniji prvi put više od 5.000 novozaraženih</a></h5></li><li><a href="https://www.vesti.rs/Ekonomija/Junajted-grupa-Novi-prodajni-TV-kanal-sansa-za-mala-preduzeca.html" title="View round"><img src="https://static.vesti.rs/slike-4/tmb_Junajted-grupa-Novi-prodajni-TV-kanal-sansa-za-mala-preduzeca.jpg" /></a><h5><span class="lnk">12:49: </span> <a href="https://www.vesti.rs/Ekonomija/Junajted-grupa-Novi-prodajni-TV-kanal-sansa-za-mala-preduzeca.html">Junajted grupa: Novi prodajni TV kanal šansa za mala preduzeća</a></h5></li><li><a href="https://www.vesti.rs/Skoda/VIDEO-Test-2021-Skoda-Superb-Scout.html" title="View round"><img src="https://static.vesti.rs/mali_logo2.png" /></a><h5><span class="lnk">12:48: </span> <a href="https://www.vesti.rs/Skoda/VIDEO-Test-2021-Skoda-Superb-Scout.html">VIDEO: Test 2021 Škoda Superb Scout</a></h5></li><li><a href="https://www.vesti.rs/Ekonomija/Vucic-sa-poslanikom-Bundestaga-o-privlacenju-novih-investicija-2.html" title="View round"><img src="https://static.vesti.rs/slike-4/tmb_Vucic-sa-poslanikom-Bundestaga-o-privlacenju-novih-investicija.jpg" /></a><h5><span class="lnk">12:47: </span> <a href="https://www.vesti.rs/Ekonomija/Vucic-sa-poslanikom-Bundestaga-o-privlacenju-novih-investicija-2.html">Vučić sa poslanikom Bundestaga o privlačenju novih investicija</a></h5></li>
+       </ul>
+    </div>
+<div class="right-block-top" id="kursna_naslov"><h2>Kursna lista</h2></div>
+<div class="excange-box" id="kursna_sadrzaj">
+	<div id="exchange-inner">
+		<div class="first-row">
+			<div class="cell1"><span class="currency">Eur</span><span class="value">117.59</span></div>
+			<div class="cell2"><span class="currency">Usd</span><span class="value">99.63</span></div>
+		</div>
+		<div class="second-row">
+			<div class="cell3"><span class="currency">Chf</span><span class="value">109.77</span></div>
+			<div class="cell4"><span class="currency">Gbp</span><span class="value">130.11</span></div>
+		</div>
+		<div class="third-row">
+			<div class="cell5"><span class="currency">Aud</span><span class="value">70.82</span></div>
+			<div class="cell6"><span class="currency">Cad</span><span class="value">75.77</span></div>
+		</div>
+	</div>
+</div>
+
+	<div class="sidebar-content"> </div>
+	<div class="right-block-top"><h2>U fokusu</h2></div>
+		<div class="sidebar-content-tabs">
+			<div id="tabbed_box_1" class="tabbed_box">
+				<div class="tabbed_area">
+				<ul class="tabs">
+					<li><a href="javascript:tabSwitch_2(1, 3, 'tab_', 'content_');" id="tab_1" class="active">U fokusu</a></li>
+					<li><a href="javascript:tabSwitch_2(2, 3, 'tab_', 'content_');" id="tab_2">Kategorije</a></li>
+					<li><a href="javascript:tabSwitch_2(3, 3, 'tab_', 'content_');" id="tab_3">Arhiva</a></li>
+				</ul>
+				<div id="content_1" class="content">
+				<ul><li><a href='https://www.vesti.rs/Coronavirus/'>Coronavirus</a></li><li><a href='https://www.vesti.rs/Pinkove-zvezdice/'>Pinkove zvezdice</a></li><li><a href='https://www.vesti.rs/Pinkove-zvezde/'>Pinkove zvezde</a></li><li><a href='https://www.vesti.rs/Sirija/'>Sirija</a></li><li><a href='https://www.vesti.rs/Novak-%C4%90okovi%C4%87/'>Novak Đoković</a></li></ul>
+
+				</div>
+				<div id="content_2" class="content">
+				<ul><li><a href='https://www.vesti.rs/Ja-imam-talenat/'>Ja imam talenat</a></li><li><a href='https://www.vesti.rs/Miss-sveta/'>Miss sveta</a></li><li><a href='https://www.vesti.rs/NLO/'>NLO</a></li><li><a href='https://www.vesti.rs/Parovi/'>Parovi</a></li></ul>
+				</div>
+				<div id="content_3" class="content">
+				<ul><li><a href="https://www.vesti.rs/arhiva/2019/7/21/"><b>21.Jul.2019</b></a></li><li><a href="https://www.vesti.rs/arhiva/2019/7/21/kateg/Zabava/">21.Jul.2019: Zabava</a></li><li><a href="https://www.vesti.rs/arhiva/2019/7/21/011vodic/">21.Jul.2019: 011vodič.com</a></li><li><a href="https://www.vesti.rs/arhiva/2019/7/20/"><b>Dan pre: 20.Jul.2019</b></a></li><li><a href="https://www.vesti.rs/arhiva/2019/7/20/kateg/Zabava/">Dan pre: Zabava</a></li><li><a href="https://www.vesti.rs/arhiva/2019/7/20/011vodic/">Dan pre: 011vodič.com</a></li><li><a href="https://www.vesti.rs/arhiva/2019/7/22/"><b>Dan posle: 22.Jul.2019</b></a></li><li><a href="https://www.vesti.rs/arhiva/2019/7/22/kateg/Zabava/">Dan posle: Zabava</a></li><li><a href="https://www.vesti.rs/arhiva/2019/7/22/011vodic/">Dan posle: 011vodič.com</a></li></ul>
+				</div>
+			</div>
+		</div>
+	</div>
+
+		<div class="newsletter">
+		<form id="newsletter" method="post" action="/subscribe.php">
+		<div class="rigt-block-top"><h2>Primajte vesti na:</h2></div>
+			<div class="featrow">
+			<div class="feat-row">
+			<input type="text" name="email"  value="vaš@e-mail" onfocus="if(this.value=='vaš@e-mail')value=''" onblur="if(this.value=='')value='vaš@e-mail';" class="newsletter_email" />
+			<h2>svakog dana u:</h2>
+			<select name="vreme">
+				<option value="6">6 ujutru</option>
+				<option value="7">7 ujutru</option>
+				<option value="8">8 ujutru</option>
+				<option value="9">9 ujutru</option>
+				<option value="10">10 ujutru</option>
+				<option value="11">11 ujutru</option>
+				<option value="12">12 podne</option>
+				<option value="13">1 popodne</option>
+				<option value="14" selected="selected">2 popodne</option>
+				<option value="15">3 popodne</option>
+				<option value="16">4 popodne</option>
+				<option value="17">5 popodne</option>
+				<option value="18">6 popodne</option>
+				<option value="19">7 uveče</option>
+				<option value="20">8 uveče</option>
+				<option value="21">9 uveče</option>
+				<option value="22">10 uveče</option>
+				<option value="23">11 uveče</option>
+				<option value="0">u ponoć</option>
+			</select>
+			<div  class="newsletter_center">
+			<input name="login"  value="Prijava" type="submit" class="newsletter_btn" />    </div>  </div><hr/>
+			<div class="feat-row">
+				<a href="https://www.vesti.rs/newsletter.png">Kako izgleda to?</a>
+		</div>
+		</div>
+		</form>
+	</div>
+
+		<div class="banner-box">
+		<div class="banner-inner">
+			<a href="https://pomoczamanastir.com/" rel="nofollow"><img src="https://static.vesti.rs/manastir.jpg" style="border: 1px solid black"></a>
+		</div>
+	</div>
+
+
+</div>
+</div>
+<div class="clear"></div>
+<!-- FOOTER -->
+<footer>
+<div class="footer">
+	<div class="footer-nav">
+		<div id="scrolltotop">
+		<a href="javascript:scrollToTop()"><img src="https://static.vesti.rs/vesti/images/back-to-top.png" alt="Nazad na vrh stranice" /></a>
+		</div>
+    <div id="global-footer">
+    <div class="section">
+      <h3 class="first">Vesti.rs</h3>
+      <ul>
+        <li><a href="/Najnovije-vesti/">Najnovije vesti</a></li>
+        <li><a href="/arhiva/">Arhiva</a></li>
+        <li><a href="/add.php">Objavite vest</a></li>
+        <li><a href="/Blog/Nase-vesti-na-Vasem-sajtu.html">Na&#353;e vesti na va&#353;em sajtu</a></li>
+        <li><a href="/Blog/Podrzite-nas.html">Podr&#382;ite nas</a></li>
+        <li><a href="/Sadrzaj/Marketing-6.html">Marketing</a></li>
+        <li><a href="/Blog/O-Vesti-rs-sajtu.html">O nama</a></li>
+        <li><a href="/kontakt.php">Kontaktirajte nas</a></li>
+      </ul>
+    </div>
+    <div class="section">
+      <h3 class="second">Linkovi</h3>
+      <ul>
+		<li><a href="https://dostavau.rs/" target="_blank" rel="nofollow">Dostava u Srbiji</a></li>
+		<li><a href="https://www.prodavnicau.rs/" target="_blank" rel="nofollow">Prodavnica u Srbiji</a></li>
+		<li><a href="https://blogosfera.rs/" target="_blank" rel="nofollow">Blogosfera</a></li>
+		<li><a href="https://www.vikendu.rs/" target="_blank" rel="nofollow">Vikend u Srbiji</a></li>
+		<li><a href="https://biznis.vesti.rs/" target="_blank" rel="nofollow">Biznis Vesti</a></li>
+		<li><a href="https://www.mycity.rs/" target="_blank" rel="nofollow">MyCity Forumi</a></li>
+        <li><a href="https://www.mycity-hosting.rs/" target="_blank" rel="nofollow">MyCity Hosting</a></li>
+      </ul>
+    </div>
+    <div class="section">
+      <h3 class="third">Mobilne aplikacije</h3>
+      <ul>
+        <li><a href="https://play.google.com/store/apps/details?id=com.zeussoftware.vesti_rs" target="_blank" rel="nofollow">Android</a></li>
+        <li><a href="https://itunes.apple.com/us/app/vesti-rs/id591591123?mt=8" target="_blank" rel="nofollow">iPhone &amp; iPad</a></li>
+      </ul>
+    </div>
+    <div class="section">
+      <h3 class="fourth">Fan stranice</h3>
+      <ul>
+        <li><a href="http://www.facebook.com/Vesti.rs" target="_blank" rel="nofollow">Facebook</a></li>
+        <li><a href="https://twitter.com/vestirs" target="_blank" rel="nofollow">Twitter</a></li>
+      </ul>
+    </div>
+	</div>
+	</div>
+	<div class="copyright"><a href="https://www.vesti.rs/"><img src="https://static.vesti.rs/vesti/images2/logo3.png" alt="Vesti.rs logo" /></a>
+	<div class="right-copyright">Sva prava zadr&#382;ana. <br />Web dizajn: <a href="http://www.spundo.com" rel="nofollow" target="_blank">Spundo</a>, redizajn: <a href="https://www.zikmasolutions.com" rel="nofollow" target="_blank">Zikma Solutions</a>, development: <a href="http://www.mycity.rs/" rel="nofollow" target="_blank">My city</a>.</div>
+	</div>
+</div>
+</footer>
+
+</body>
+</html>

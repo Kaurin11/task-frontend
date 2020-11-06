@@ -1,0 +1,20 @@
+.task-popup {
+  width: 100%;
+  height: 100%;
+  background-color: rgba($color: #000000, $alpha: 0.7);
+  position: absolute;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2000;
+
+  &__content {
+    width: 50rem;
+    height: 35rem;
+    background-color: $color-light-gray;
+    border-radius: 1rem;
+    color: $color-dark-gray;
+    text-align: center;
+  }
+}

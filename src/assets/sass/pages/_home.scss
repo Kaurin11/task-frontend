@@ -1,0 +1,78 @@
+.section-popup {
+  padding: 15rem 0;
+}
+
+.popup {
+  background-size: 100%;
+  border-radius: 3px;
+  box-shadow: 0 1.5rem 4rem rgba($color-black, 0.2);
+
+  height: 50rem;
+
+  &__form {
+    width: 50%;
+    padding: 6rem;
+  }
+}
+
+.section-login {
+  padding: 15rem 0;
+  background-image: linear-gradient(
+    to right bottom,
+    $color-primary-orange,
+    $color-primary-orange-dark
+  );
+}
+
+.login {
+  background-image: linear-gradient(
+      105deg,
+      rgba($color-white, 0.9) 0%,
+      rgba($color-white, 0.9) 50%,
+      transparent 50%
+    ),
+    url(../../../img/header-bg.jpg);
+
+  background-size: cover;
+  border-radius: 3px;
+  box-shadow: 0 1.5rem 4rem rgba($color-black, 0.2);
+
+  height: auto;
+
+  &__form {
+    width: 50%;
+    padding: 5rem;
+  }
+}
+
+.section-home {
+  text-align: center;
+  height: 50rem;
+  background-size: cover;
+  background-image: linear-gradient(
+    to right bottom,
+    rgba($color-primary-orange, 0.8),
+    rgba($color-primary-orange-dark, 0.8)
+  );
+  position: relative;
+
+  &__content {
+    background-color: rgba($color-white, 0.1);
+    height: 30rem;
+    width: fit-content;
+    text-align: center;
+    border-radius: 5rem;
+    padding-top: 3rem;
+
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  &__icon {
+    color: $color-white;
+    margin-bottom: 3rem;
+  }
+}

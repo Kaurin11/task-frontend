@@ -1,0 +1,62 @@
+.header {
+  height: 70vh;
+  background-image: url(../../../img/header-bg.jpg);
+  background-size: cover;
+  background-position: top;
+
+  &__text-box {
+    max-width: 52rem;
+    margin-left: auto;
+    padding: 4rem 0;
+    text-align: right;
+  }
+
+  &__create-btn {
+    cursor: pointer;
+    top: 4rem;
+    left: 4rem;
+    max-width: 3rem;
+    position: absolute;
+    transition: all 0.4s;
+  }
+
+  &__create-btn:hover {
+    transform: scale(1.3);
+  }
+
+  &__date {
+    height: 83px;
+    background-color: rgba($color: $color-primary-orange-dark, $alpha: 0.4);
+    top: 20.5rem;
+    position: relative;
+    top: -8.4rem;
+
+    &-logo--box {
+      float: right;
+    }
+
+    &-icon {
+      width: 100%;
+      margin: 0 auto;
+      padding: 0 30px;
+      display: inline-block;
+    }
+
+    &-calendar {
+      display: block;
+      opacity: 3000;
+      background-color: transparent;
+    }
+
+    &-click {
+      display: contents;
+      transition: all 0.4s;
+    }
+
+    &-icon--float {
+      float: left;
+      position: absolute;
+      margin-left: 8rem;
+    }
+  }
+}

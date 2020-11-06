@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+li,
+a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: $default-font-size;
+}
+
+button {
+  cursor: pointer;
+  transition: all 0.5s;
+
+  &:disabled {
+    background-color: $color-dark-gray;
+    color: $color-white;
+  }
+}

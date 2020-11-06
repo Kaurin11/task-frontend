@@ -1,0 +1,49 @@
+[
+    {
+        "id": 1,
+        "quotes":"Get busy living or get busy dying.",
+        "author":"– Stephen King"
+    },
+
+    {
+        "id": 2,
+        "quotes":"Great minds discuss ideas; average minds discuss events; small minds discuss people.",
+        "author":"– Eleanor Roosevelt"
+    },
+
+    {
+        "id": 3,
+        "quotes":"It is hard to fail, but it is worse never to have tried to succeed.",
+        "author":"– Theodore Roosevelt"
+    },
+
+    {
+        "id": 4,
+        "quotes":"“Challenges are what make life interesting and overcoming them is what makes life meaningful.”",
+        "author":"– Joshua J. Marine"
+    },
+
+    {
+        "id": 5,
+        "quotes":"It is our choices, that show what we truly are, far more than our abilities.",
+        "author":"– J. K Rowling"
+    },
+
+    {
+        "id": 6,
+        "quotes":"Remember that the happiest people are not those getting more, but those giving more.",
+        "author":"– H. Jackson Brown, Jr."
+    },
+
+    {
+        "id": 7,
+        "quotes":"Never let the fear of striking out keep you from playing the game.",
+        "author":"– Babe Ruth"
+    },
+
+    {
+        "id": 8,
+        "quotes":"Success is how high you bounce when you hit bottom.",
+        "author":"– George S. Patton"
+    }
+]

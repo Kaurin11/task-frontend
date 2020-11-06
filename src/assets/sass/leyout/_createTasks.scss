@@ -1,0 +1,66 @@
+.tasks-reviews {
+  align-items: center;
+  min-width: 60%;
+  width: max-content;
+  margin: 5rem auto;
+  color: $color-black;
+}
+
+.tasks {
+  background-color: $color-white;
+  box-shadow: 0 1rem 2rem rgba($color-black, 0.2);
+  padding: 3rem;
+  margin-bottom: 3.5rem;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.4s;
+
+  &:hover {
+    transform: scale(1.1);
+    outline: 0.3rem solid $color-primary-orange;
+  }
+
+  &__body-task {
+    position: relative;
+    top: 3rem;
+  }
+
+  &__body-hours {
+    position: relative;
+    top: 1rem;
+    left: 27rem;
+    border-bottom: 1px solid $color-black;
+    max-width: 2rem;
+    text-align: center;
+  }
+
+  &__heading {
+    position: absolute;
+
+    &-task {
+      margin-right: 20rem;
+      float: left;
+    }
+
+    &-hours {
+      float: right;
+      right: 2rem;
+    }
+  }
+
+  &__title {
+    margin-bottom: 2rem;
+    z-index: 10;
+    position: relative;
+    font-size: 2rem;
+    transition: all 0.5s;
+  }
+
+  &__hours {
+    float: right;
+    &-box {
+      width: fit-content;
+      border-bottom: 1px solid $color-black;
+    }
+  }
+}
