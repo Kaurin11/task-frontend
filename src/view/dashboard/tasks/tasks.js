@@ -4,6 +4,9 @@ import { getUserIdFromStorage } from '../../../constants/localstorage';
 import { getAllTask } from '../../../constants/services/services';
 import './stylee.scss';
 
+import {connect} from 'react-redux';
+import * as actionCreators from '../../../store/action';
+
 const Tasks = () => {
 
     const [tasks, setTask] = useState([]);
@@ -39,7 +42,7 @@ const Tasks = () => {
                                 <Task
                                     key={task.id}
                                     title={task.title}
-                                    hours={task.hours} />  
+                                    hours={task.hours}/>  
                             )
                         })}
             
@@ -51,4 +54,16 @@ const Tasks = () => {
     )
 }
 
-export default Tasks;
+const mapStateToProps = (state) => {
+    return {
+        tasks: state.tasks
+    }
+}
+
+const mapDispatchToProps = (dispatch) => {
+    return{
+        addTask : () => dispatch(actionCreators.addTask)
+    }
+}
+
+export default connect(mapDispatchToProps,mapStateToProps) (Tasks);

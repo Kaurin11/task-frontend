@@ -15,7 +15,7 @@ const Task = ({title, hours}) => {
                 <div>
                     <h3 className="tasks__body-task">{title}</h3>
                     <h3 className="tasks__body-hours">{hours}</h3>
-                    
+                   
                 </div>
             </div>
             </div>)

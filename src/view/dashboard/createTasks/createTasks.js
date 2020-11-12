@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 import './stylee.scss';
 
@@ -9,9 +9,9 @@ import { setTask } from '../../../constants/services/services';
 import * as Yup from 'yup';
 
 
-const  CreateTasks = ({selectDate, setShowTask ,getData}) => {
+const  CreateTasks = ({selectDate, setShowTask }) => {
 
-    
+    const [error, setError] = useState('');
     const idOfUser = localStorage.getItem('userId');
     const formatedDate = moment(selectDate).format('YYYY-MM-DD')
     
@@ -35,8 +35,13 @@ const  CreateTasks = ({selectDate, setShowTask ,getData}) => {
 
     const submitHandler = async (e) => {
         e.preventDefault();
-        await setTask(idOfUser ,formik.values);     
-        setShowTask(false);   
+        try{
+            await setTask(idOfUser ,formik.values);     
+            setShowTask(false);   
+        } catch (error) {
+            setError(error.response.data.message)
+          }
+        
     }
 
     const backHandler = () => {
@@ -112,6 +117,7 @@ const  CreateTasks = ({selectDate, setShowTask ,getData}) => {
                                     <Button style={buttonStyle} onClick={backHandler} name={'X'}/>
                                     
                                 </div>
+                                <h3>{error}</h3>
                             </div>
                                 
                             </form>

@@ -5,6 +5,7 @@ import { getMainUrl } from '../../../constants/routes/routes';
 import { useRouteMatch, useHistory } from 'react-router-dom';
 import Footer from '../../../components/footer/footer';
 import { getUserIdFromStorage } from '../../../constants/localstorage';
+import Button from '../../../components/button/button';
 
 const TaskForDate = () => {
 
@@ -56,11 +57,12 @@ const TaskForDate = () => {
                         })}
             </div>
             <div className="task__total">
-                <h2>
+                <h2 className="u-margin-bottom-medium">
                     Total hours: {totalHours}
                 </h2>
-                {/* <Button  onClick={backHandler} name={'BACK'}/> */}
-                <button className="u-margin-bottom-big" onClick={backHandler}>Back</button>
+                <div className="u-margin-bottom-big">
+                    <Button  onClick={backHandler} name={'BACK'}/>
+                </div>
                 <Footer />
             </div>
         </div>
