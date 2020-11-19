@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 
 import './stylee.scss';
 
@@ -8,8 +8,12 @@ import Button from '../../../components/button/button';
 import { setTask } from '../../../constants/services/services';
 import * as Yup from 'yup';
 
+import {connect} from 'react-redux';
+import * as actionCreators from '../../../store/actions/index';
+import {purchaseTask} from '../../../store/actions/action'
+import tasks from '../tasks/tasks';
 
-const  CreateTasks = ({selectDate, setShowTask }) => {
+const  CreateTasks = ({selectDate,getTaskStore,setTaskStore ,errorStore,setHideTask}) => {
 
     const [error, setError] = useState('');
     const idOfUser = localStorage.getItem('userId');
@@ -28,24 +32,26 @@ const  CreateTasks = ({selectDate, setShowTask }) => {
                 .moreThan(0,'Please enter number')
                 .required('Required')
           }),
-       
-        
     })
     
+    
 
-    const submitHandler = async (e) => {
+    const submitHandler =async (e) => {
         e.preventDefault();
         try{
-            await setTask(idOfUser ,formik.values);     
-            setShowTask(false);   
+            await setTask(idOfUser ,formik.values); 
+            setHideTask();   
+            // setShowTask(false);   
         } catch (error) {
             setError(error.response.data.message)
+            // console.log(error)
           }
         
-    }
-
-    const backHandler = () => {
-        setShowTask(false);
+        // setTaskStore(formik.values);
+        // setShowTask(false);
+        getTaskStore();
+        
+        
     }
 
 
@@ -114,7 +120,7 @@ const  CreateTasks = ({selectDate, setShowTask }) => {
                             </div> */}
                                 <div className="u-margin-top-small">
                                     <Button disabled={!(formik.dirty && formik.isValid)} className="btn-submit"  onClick={submitHandler} name={'SUBMIT'}/>
-                                    <Button style={buttonStyle} onClick={backHandler} name={'X'}/>
+                                    <Button style={buttonStyle} onClick={() => setHideTask()} name={'X'}/>
                                     
                                 </div>
                                 <h3>{error}</h3>
@@ -130,4 +136,29 @@ const  CreateTasks = ({selectDate, setShowTask }) => {
     )
 }
 
-export default CreateTasks;
+const mapStateToProps = (state) => {
+    return {
+        tasksStore: state.reducer.tasks,
+        errorStore: state.reducer.error,
+        hideTaskStore: state.showTaskReducer.showTask
+
+    }
+}
+
+const mapDispatchToProps = (dispatch) => {
+    return {
+        setTaskStore : (values) => dispatch(actionCreators.purchaseTask(values)),
+        getTaskStore : (tasks) => dispatch(actionCreators.getTask(tasks)),
+        setHideTask : () => dispatch(actionCreators.setHideTask())
+    }
+}
+
+
+// const mapDispatchToProps = (dispatch) => {
+//     return{
+//         setTaskStore : (values) => dispatch(actionCreators.purchaseTask(values)),
+//         getTaskStore : (tasks) => dispatch(actionCreators.getTask(tasks))
+//     }
+// }
+
+export default connect(mapStateToProps, mapDispatchToProps )(CreateTasks);

@@ -4,6 +4,8 @@ import { generateTaskByDate } from '../../constants/routes/routes';
 import PickerDate from '../date/date';
 import './stylee.scss';
 import * as moment from 'moment';
+import Logo from '../../img/vegait-logo.jpg';
+
 
 const DateTrack = ({selectDate, onDateChange}) => {
 
@@ -33,7 +35,7 @@ const DateTrack = ({selectDate, onDateChange}) => {
                     <div className="col-1-of-3 u-margin-top-medium ">
                         <img 
                             className="header__date-logo--box "
-                            src="img/vegait-logo.svg"
+                            src={Logo}
                             alt="Logo" />
                     </div>
                 </div>

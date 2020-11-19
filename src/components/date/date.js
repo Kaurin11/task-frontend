@@ -8,8 +8,6 @@ const PickerDate = ({onChange, value}) => {
     // const getTaskByDateHandler = (value) => {
     //     history.push(getTaskByDateUrl(value));
     // }
-
-    
     
     return (
         <div >
@@ -20,7 +18,6 @@ const PickerDate = ({onChange, value}) => {
                 dateFormat='dd/MM/yyyy'
                 showYearDropdown
                 scrollableMonthYearDropdown
-                
                 />
         </div>
     )

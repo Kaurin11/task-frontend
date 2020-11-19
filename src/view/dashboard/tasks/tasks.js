@@ -5,47 +5,57 @@ import { getAllTask } from '../../../constants/services/services';
 import './stylee.scss';
 
 import {connect} from 'react-redux';
-import * as actionCreators from '../../../store/action';
+import * as actionCreators from '../../../store/actions/index';
+import Button from '../../../components/button/button';
 
-const Tasks = () => {
+const Tasks = ({getTaskStore,tasksStore}) => {
 
-    const [tasks, setTask] = useState([]);
+    //const [tasks, setTask] = useState([]);
+
 
     useEffect(() => {
-        getData();
+        // const getData = async () => {
+        //     const userId = getUserIdFromStorage();
+        //     const {data} = await getAllTask(userId);
+        //     const allTask = data;
+        //     console.log(allTask)
+        //     // setTask(allTask);
+        //     props.getTaskStore(allTask);
+        // }
+
+        const getData = () => {
+            getTaskStore()
+        }
+        getData()
     }, []);
- 
+
+   
     // const idOfUser = localStorage.getItem('userId');
-
-    const getData = async () => {
-        const userId = getUserIdFromStorage();
-        const {data} = await getAllTask(userId);
-        const allTask = data;
-        setTask(allTask);
-    }
+    
+    console.log(tasksStore)
 
 
-    const totalHours = tasks.reduce((acc, curr) => {
+    const totalHours = tasksStore.reduce((acc, curr) => {
         if(curr.hours > 0){
             acc += curr.hours
         }
         return acc
     }, 0);
-
     
+
+   
     return (
         <div>
             <div className="tasks-reviews">
-                        {tasks.map((task) => {
+                        {tasksStore.map((task) => {
                             return(
-                                
                                 <Task
                                     key={task.id}
                                     title={task.title}
-                                    hours={task.hours}/>  
+                                    hours={task.hours}
+                                    id={task.id}/>  
                             )
                         })}
-            
                 <h2>
                     Total hours: {totalHours} h
                 </h2>
@@ -54,16 +64,19 @@ const Tasks = () => {
     )
 }
 
+
+
+
 const mapStateToProps = (state) => {
     return {
-        tasks: state.tasks
+        tasksStore: state.reducer.tasks
     }
 }
 
 const mapDispatchToProps = (dispatch) => {
     return{
-        addTask : () => dispatch(actionCreators.addTask)
+        getTaskStore : (tasks) => dispatch(actionCreators.getTask(tasks))
     }
 }
 
-export default connect(mapDispatchToProps,mapStateToProps) (Tasks);
+export default connect(mapStateToProps, mapDispatchToProps)(Tasks);

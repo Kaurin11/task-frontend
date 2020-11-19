@@ -5,7 +5,10 @@ import Header from '../../../components/header/header';
 import CreateTasks from './../createTasks/createTasks';
 import Tasks from './../tasks/tasks';
 
-const Main = (props) => {
+import {connect} from 'react-redux';
+import * as actionCreators from '../../../store/actions/action';
+
+const Main = ({showTaskStore}) => {
 
     
     const [showTask, setShowTask] = useState (false);
@@ -15,16 +18,16 @@ const Main = (props) => {
         setShowTask(true)
     } 
 
-    console.log(props.match.path)
+    // console.log(props.match.path)
 
     return (
         <div> 
             <Header 
-                setShowTask={setShowTask}
-                showTaskHandler={showTaskHandler}
+                // setShowTask={setShowTask}
+                // showTaskHandler={showTaskHandler}
                 />
-            {showTask ? <div > <CreateTasks
-                    selectDate={selectDate} setShowTask={setShowTask}/> </div> : null}
+            {showTaskStore ? <div > <CreateTasks
+                    selectDate={selectDate} /> </div> : null}
             <DateTrack 
                 selectDate={selectDate}
                 onDateChange={(value) => setSelectDate(value)}/>
@@ -34,4 +37,16 @@ const Main = (props) => {
     )
 }
 
-export default Main;
+const mapStateToProps = (state) => {
+    return {
+        showTaskStore: state.showTaskReducer.showTask
+    }
+}
+
+const mapDispatchToProps = (dispatch) => {
+    return{
+        setShowTaskStore : () => dispatch(actionCreators.setShowTask())
+    }
+}
+
+export default connect(mapStateToProps,mapDispatchToProps)(Main);

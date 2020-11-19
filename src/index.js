@@ -6,10 +6,17 @@ import * as serviceWorker from './serviceWorker';
 
 
 import {Provider} from 'react-redux';
-import {createStore} from 'redux';
-import reducer from './store/reducer';
+import {createStore,combineReducers ,applyMiddleware} from 'redux';
+import reducer from './store/reducers/reducer';
+import showTaskReducer from './store/reducers/showTaskReducer';
+import thunk from 'redux-thunk';
 
-const store = createStore(reducer);
+const rootReducer = combineReducers({
+  reducer : reducer,
+  showTaskReducer : showTaskReducer
+})
+
+const store = createStore(rootReducer, applyMiddleware(thunk));
 
 ReactDOM.render(
   
