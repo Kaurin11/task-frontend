@@ -3,13 +3,19 @@ import * as actionTypes from '../actions/actionTypes';
 const initialState = {
     tasks : [],
     date: null,
-    error: ''
+    error: '',
+    idUser: localStorage.getItem('userId')
     
 }
 
 const reducer = ( state = initialState, action) => {
     switch(action.type) {
         case actionTypes.GET_TASK :
+            return{
+                ...state,
+                tasks: action.tasks
+            }
+        case actionTypes.GET_TASK_DATE :
             return{
                 ...state,
                 tasks: action.tasks

@@ -50,8 +50,6 @@ const  CreateTasks = ({selectDate,getTaskStore,setTaskStore ,errorStore,setHideT
         // setTaskStore(formik.values);
         // setShowTask(false);
         getTaskStore();
-        
-        
     }
 
 

@@ -4,7 +4,7 @@ import { generateTaskByDate } from '../../constants/routes/routes';
 import PickerDate from '../date/date';
 import './stylee.scss';
 import * as moment from 'moment';
-import Logo from '../../img/vegait-logo.jpg';
+import Logo from '../../img/vegait-logo.svg';
 
 
 const DateTrack = ({selectDate, onDateChange}) => {

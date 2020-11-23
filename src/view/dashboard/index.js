@@ -7,8 +7,6 @@ import TaskForDate from './tasksForDate/tasksForDate';
 const Dashboard = (props) => {
     
 
-    console.log(props.match.path)
-
     return (
         <Switch>
             <Route path={getMainUrl()} component={Main} />

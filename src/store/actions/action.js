@@ -1,10 +1,24 @@
+import { useRouteMatch } from 'react-router';
 import { getUserIdFromStorage } from '../../constants/localstorage';
 import { USER_ID_KEY } from '../../constants/routes/routes';
-import { getAllTask, setTask } from '../../constants/services/services';
+import { getAllTask, getTaskByDate, loginUser, setTask } from '../../constants/services/services';
 import * as actionTypes from './actionTypes';
 
 
 const userId = getUserIdFromStorage();
+// const idOfUser = localStorage.getItem('userId');
+
+export const getTaskForDate = async({match},dispatch) => {
+    const{date} = match.params;
+    const idOfUser = localStorage.getItem('userId');
+    const{data} = await getTaskByDate(idOfUser,date);
+    const dateTask = data;
+    dispatch({
+        type: actionTypes.GET_TASK_DATE,
+        tasks: dateTask
+    })
+}
+
 
 export const setShowTask = (showTask) => {
     return {
@@ -20,8 +34,11 @@ export const setHideTask = (showTask) => {
     }
 }
 
+
+
 export const getTask = () => async (dispatch) => {
-    const {data} = await getAllTask(userId);
+    let idOfUser = localStorage.getItem('userId')
+    const {data} = await getAllTask(idOfUser);
     const tasks = data ;
     dispatch({
         type: actionTypes.GET_TASK,
@@ -29,6 +46,14 @@ export const getTask = () => async (dispatch) => {
     })
 }
 
+// export const logUser = () => async(dispatch) => {
+//     const {data} = await loginUser(loginObj);
+//     localStorage.setItem('userId', data.id);
+//     return dispatch => {
+        
+//     }
+     
+// }
 
 export const purchaseTask = (taskObj) => {
     return  dispatch =>  {

@@ -2,14 +2,19 @@ import { useFormik } from 'formik';
 import React, { useState } from 'react';
 import { useHistory} from 'react-router';
 import Button from '../../../components/button/button';
+import { getUserIdFromStorage } from '../../../constants/localstorage';
 import { getDashboardUrl } from '../../../constants/routes/routes';
 import { loginUser } from '../../../constants/services/services';
+
+import {connect} from 'react-redux';
+import * as actionCreators from '../../../store/actions/index';
 import './stylee.scss';
 
 
 
-const Login = () => {
+const Login = ({setIdUser,idUserStore}) => {
 
+  const userId = getUserIdFromStorage();
   const history = useHistory();
 
     const formik = useFormik({
@@ -17,6 +22,7 @@ const Login = () => {
         username: '',
         password: '',
       },
+      
     });
     const [error, setError] = useState('')
   
@@ -24,7 +30,6 @@ const Login = () => {
       e.preventDefault();
       try {
       const {data} = await loginUser(formik.values);
-      console.log(data);
       localStorage.setItem('userId', data.id);
       history.push(getDashboardUrl())
       } catch (error) {
@@ -81,5 +86,6 @@ const Login = () => {
       </section>
     );
   };
+
 
 export default Login;

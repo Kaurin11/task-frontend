@@ -10,7 +10,6 @@ const Home = () => {
     const history = useHistory();
 
     const goToLoginHandler = () => {
-        console.log(getLoginUrl())
         history.push(getLoginUrl());
     }
 

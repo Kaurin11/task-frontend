@@ -5,7 +5,7 @@ const Footer = () => {
 
     return (
         <div className="footer">
-            <h1>© 2019 Vega IT Sourcing</h1>
+            <h2 className="footer__text">© 2019 Vega IT Sourcing</h2>
         </div>
     )
 }

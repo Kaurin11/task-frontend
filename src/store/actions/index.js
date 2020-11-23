@@ -2,5 +2,6 @@ export {
     getTask,
     purchaseTask,
     setShowTask,
-    setHideTask
+    setHideTask,
+    getTaskForDate
 } from './action';

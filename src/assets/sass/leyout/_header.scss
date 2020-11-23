@@ -3,6 +3,7 @@
   background-image: url(../../../img/header-bg.jpg);
   background-size: cover;
   background-position: top;
+  color: $color-white;
 
   &__text-box {
     max-width: 52rem;
@@ -30,9 +31,11 @@
     top: 20.5rem;
     position: relative;
     top: -8.4rem;
+    color: $color-white;
 
     &-logo--box {
       float: right;
+      height: 5rem;
     }
 
     &-icon {
@@ -51,6 +54,7 @@
     &-click {
       display: contents;
       transition: all 0.4s;
+      color: $color-white;
     }
 
     &-icon--float {

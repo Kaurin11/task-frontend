@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react' ;
+import React, {useState, useEffect} from 'react' ;
 import Task from '../../../components/task/task';
 import { getUserIdFromStorage } from '../../../constants/localstorage';
 import { getAllTask } from '../../../constants/services/services';
@@ -6,33 +6,35 @@ import './stylee.scss';
 
 import {connect} from 'react-redux';
 import * as actionCreators from '../../../store/actions/index';
-import Button from '../../../components/button/button';
+import { useHistory } from 'react-router';
+import { getAuthUrl } from '../../../constants/routes/routes';
+import LogoutButton from '../../../components/button/logoutBotton';
 
-const Tasks = ({getTaskStore,tasksStore}) => {
+const Tasks = ({getTaskStore,tasksStore,idUserStore}) => {
 
-    //const [tasks, setTask] = useState([]);
+    const history = useHistory();
+    const [tasks, setTask] = useState([]);
 
-
+    const userId = getUserIdFromStorage();
     useEffect(() => {
         // const getData = async () => {
         //     const userId = getUserIdFromStorage();
         //     const {data} = await getAllTask(userId);
         //     const allTask = data;
         //     console.log(allTask)
-        //     // setTask(allTask);
-        //     props.getTaskStore(allTask);
+        //     setTask(allTask);
+        //     //props.getTaskStore(allTask);
         // }
+        // getData()
+        
+            getTaskStore();
 
-        const getData = () => {
-            getTaskStore()
-        }
-        getData()
     }, []);
 
+    
+    // console.log(userId)
    
     // const idOfUser = localStorage.getItem('userId');
-    
-    console.log(tasksStore)
 
 
     const totalHours = tasksStore.reduce((acc, curr) => {
@@ -43,10 +45,19 @@ const Tasks = ({getTaskStore,tasksStore}) => {
     }, 0);
     
 
+    const logoutHandler = (e)=> {
+        e.preventDefault();
+        localStorage.clear();
+        history.push(getAuthUrl())
+
+    }
    
     return (
         <div>
             <div className="tasks-reviews">
+                <div className="tasks__logout btn--animated" onClick={logoutHandler}>
+                    <ion-icon size="large" name="log-out-outline"></ion-icon>
+                </div>
                         {tasksStore.map((task) => {
                             return(
                                 <Task
@@ -69,7 +80,8 @@ const Tasks = ({getTaskStore,tasksStore}) => {
 
 const mapStateToProps = (state) => {
     return {
-        tasksStore: state.reducer.tasks
+        tasksStore: state.reducer.tasks,
+        idUserStore: state.reducer.idUser
     }
 }
 

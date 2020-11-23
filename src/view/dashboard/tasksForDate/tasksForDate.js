@@ -31,13 +31,10 @@ const TaskForDate = () => {
         return acc
     }, 0);
 
-    console.log(history);
+    
     const backHandler = (e) => {
         e.preventDefault();
-        console.log(history);
         history.push(getMainUrl());
-        console.log(match.path)
-
     }
 
     return (
