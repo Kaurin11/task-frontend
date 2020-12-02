@@ -14,7 +14,9 @@ const TaskForDate = (getTaskByDateStore,tasksStore) => {
     const history = useHistory();
     const match = useRouteMatch();
     const [tasks, setTask] = useState([]);
-    // const userId = localStorage.getItem('userId');
+
+    //This API call through Redux don't work
+    // Error: Actions must be plain objects. Use custom middleware for async actions.
 
     useEffect(() => {
         const getData = async () => {
@@ -25,11 +27,8 @@ const TaskForDate = (getTaskByDateStore,tasksStore) => {
         }
         getData();
 
-        // Ovaj poziv kroz Redux isto ne radi
-        // Error: Actions must be plain objects. Use custom middleware for async actions. Ovaj error mi izbacuje
-
         //const{date} = match.params;
-        //getTaskByDateStore();
+        //getTaskByDateStore(date);
     }, []);
 
     const totalHours = tasks.reduce((acc, curr) => {

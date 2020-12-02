@@ -34,8 +34,11 @@ const  CreateTasks = ({selectDate,getTaskStore,setTaskStore,tasksStore ,errorSto
     })
     
     
-    // Kada radim preko Reduxa, nece da mi automatski pozove i prikaze to sto sam kreirao,
-    // a kad radim preko try/catch-a odmah mi prikaze sta sam kreirao
+// When I create a Task using Redux, the task is written to my database, 
+// but it only appears to me when I refresh the page. 
+// I had an idea to correct this with the help of conditional re-render. 
+// But I failed to solve this problem in the end.
+// So I left a solution that works, and commented on the solution where I used Redux
     const submitHandler =async(e) => {
         e.preventDefault();
         try{
