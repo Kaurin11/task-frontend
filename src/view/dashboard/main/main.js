@@ -11,20 +11,13 @@ import * as actionCreators from '../../../store/actions/action';
 const Main = ({showTaskStore}) => {
 
     
-    const [showTask, setShowTask] = useState (false);
+    
     const [selectDate , setSelectDate] = useState(new Date())
 
-    const showTaskHandler = () => {
-        setShowTask(true)
-    } 
-
-    // console.log(props.match.path)
-
+    
     return (
         <div> 
             <Header 
-                // setShowTask={setShowTask}
-                // showTaskHandler={showTaskHandler}
                 />
             {showTaskStore ? <div > <CreateTasks
                     selectDate={selectDate} /> </div> : null}
@@ -40,6 +33,7 @@ const Main = ({showTaskStore}) => {
 const mapStateToProps = (state) => {
     return {
         showTaskStore: state.showTaskReducer.showTask
+
     }
 }
 

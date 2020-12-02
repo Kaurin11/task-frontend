@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, {  useState } from 'react';
 
 import './stylee.scss';
 
@@ -10,10 +10,9 @@ import * as Yup from 'yup';
 
 import {connect} from 'react-redux';
 import * as actionCreators from '../../../store/actions/index';
-import {purchaseTask} from '../../../store/actions/action'
-import tasks from '../tasks/tasks';
+import {purchaseTask} from '../../../store/actions/action';
 
-const  CreateTasks = ({selectDate,getTaskStore,setTaskStore ,errorStore,setHideTask}) => {
+const  CreateTasks = ({selectDate,getTaskStore,setTaskStore,tasksStore ,errorStore,setHideTask}) => {
 
     const [error, setError] = useState('');
     const idOfUser = localStorage.getItem('userId');
@@ -35,21 +34,21 @@ const  CreateTasks = ({selectDate,getTaskStore,setTaskStore ,errorStore,setHideT
     })
     
     
-
-    const submitHandler =async (e) => {
+    // Kada radim preko Reduxa, nece da mi automatski pozove i prikaze to sto sam kreirao,
+    // a kad radim preko try/catch-a odmah mi prikaze sta sam kreirao
+    const submitHandler =async(e) => {
         e.preventDefault();
         try{
             await setTask(idOfUser ,formik.values); 
-            setHideTask();   
-            // setShowTask(false);   
+            setHideTask();      
         } catch (error) {
             setError(error.response.data.message)
-            // console.log(error)
           }
+        getTaskStore();
         
         // setTaskStore(formik.values);
-        // setShowTask(false);
-        getTaskStore();
+        // getTaskStore();
+        // setHideTask();
     }
 
 
@@ -105,17 +104,6 @@ const  CreateTasks = ({selectDate,getTaskStore,setTaskStore ,errorStore,setHideT
                                     <div>{formik.errors.hours}</div>
                                 ) : null}
 
-                            {/* <div className="form__group">
-                                <label className="form__label" htmlFor="date">Date</label>
-                                <input
-                                id="date"
-                                name="date"
-                                type="date"
-                                className="form__input"
-                                onChange={formik.handleChange}
-                                value={formik.initialValues.date}
-                                />
-                            </div> */}
                                 <div className="u-margin-top-small">
                                     <Button disabled={!(formik.dirty && formik.isValid)} className="btn-submit"  onClick={submitHandler} name={'SUBMIT'}/>
                                     <Button style={buttonStyle} onClick={() => setHideTask()} name={'X'}/>
@@ -150,13 +138,5 @@ const mapDispatchToProps = (dispatch) => {
         setHideTask : () => dispatch(actionCreators.setHideTask())
     }
 }
-
-
-// const mapDispatchToProps = (dispatch) => {
-//     return{
-//         setTaskStore : (values) => dispatch(actionCreators.purchaseTask(values)),
-//         getTaskStore : (tasks) => dispatch(actionCreators.getTask(tasks))
-//     }
-// }
 
 export default connect(mapStateToProps, mapDispatchToProps )(CreateTasks);

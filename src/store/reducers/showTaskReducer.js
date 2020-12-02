@@ -17,8 +17,9 @@ const showTaskReducer = ( state = initialState, action) => {
                 ...state,
                 showTask: false
             }
+        default:
+            return state;
         }
-        return state;
     }
 
 export default showTaskReducer;

@@ -42,5 +42,4 @@ const DateTrack = ({selectDate, onDateChange}) => {
             </div>
     )
 }
-
 export default DateTrack;

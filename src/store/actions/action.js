@@ -1,23 +1,17 @@
-import { useRouteMatch } from 'react-router';
-import { getUserIdFromStorage } from '../../constants/localstorage';
-import { USER_ID_KEY } from '../../constants/routes/routes';
-import { getAllTask, getTaskByDate, loginUser, setTask } from '../../constants/services/services';
+import { getAllTask, getTaskByDate,  setTask } from '../../constants/services/services';
 import * as actionTypes from './actionTypes';
 
 
-const userId = getUserIdFromStorage();
-// const idOfUser = localStorage.getItem('userId');
-
-export const getTaskForDate = async({match},dispatch) => {
-    const{date} = match.params;
-    const idOfUser = localStorage.getItem('userId');
-    const{data} = await getTaskByDate(idOfUser,date);
-    const dateTask = data;
-    dispatch({
+export const getTaskForDate = () => {
+    return async function (dispatch, taskDate) {
+      let idOfUser = localStorage.getItem("userId");
+      const { data } = await getTaskByDate(idOfUser, taskDate);
+      dispatch({
         type: actionTypes.GET_TASK_DATE,
-        tasks: dateTask
-    })
-}
+        tasks: data,
+      });
+    };
+  };
 
 
 export const setShowTask = (showTask) => {
@@ -46,18 +40,12 @@ export const getTask = () => async (dispatch) => {
     })
 }
 
-// export const logUser = () => async(dispatch) => {
-//     const {data} = await loginUser(loginObj);
-//     localStorage.setItem('userId', data.id);
-//     return dispatch => {
-        
-//     }
-     
-// }
+
 
 export const purchaseTask = (taskObj) => {
+    let idOfUser = localStorage.getItem('userId')
     return  dispatch =>  {
-        setTask(userId,taskObj)
+        setTask(idOfUser,taskObj)
         .then(response => {
             console.log(response);
             dispatch(
@@ -76,20 +64,5 @@ export const purchaseTask = (taskObj) => {
                 }
             )
         })
-        // try{
-        //     await setTask(idOfUser, values)
-        //     dispatch(purchaseTaskSuccess()) 
-        // } catch(error) {
-        //     purchaseTaskFail(error)
-        // }
-        // const submitHandler = async (e) => {
-        //     e.preventDefault();
-        //     try{
-        //         await setTask(idOfUser ,formik.values);     
-        //         setShowTask(false);   
-        //     } catch (error) {
-        //         setError(error.response.data.message)
-        //       }
-        //}
     }
 }

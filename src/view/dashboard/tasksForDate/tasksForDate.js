@@ -6,8 +6,10 @@ import { useRouteMatch, useHistory } from 'react-router-dom';
 import Footer from '../../../components/footer/footer';
 import { getUserIdFromStorage } from '../../../constants/localstorage';
 import Button from '../../../components/button/button';
+import { connect } from 'react-redux';
+import * as actionCreators from '../../../store/actions/index';
 
-const TaskForDate = () => {
+const TaskForDate = (getTaskByDateStore,tasksStore) => {
 
     const history = useHistory();
     const match = useRouteMatch();
@@ -22,6 +24,12 @@ const TaskForDate = () => {
         setTask(data);
         }
         getData();
+
+        // Ovaj poziv kroz Redux isto ne radi
+        // Error: Actions must be plain objects. Use custom middleware for async actions. Ovaj error mi izbacuje
+
+        //const{date} = match.params;
+        //getTaskByDateStore();
     }, []);
 
     const totalHours = tasks.reduce((acc, curr) => {
@@ -31,6 +39,7 @@ const TaskForDate = () => {
         return acc
     }, 0);
 
+    
     
     const backHandler = (e) => {
         e.preventDefault();
@@ -66,4 +75,16 @@ const TaskForDate = () => {
     )
 }
 
-export default TaskForDate;
+const mapStateToProps = (state) => {
+    return {
+      tasksStore: state.reducer.tasks,
+    };
+  };
+  
+  const mapDispatchToProps = (dispatch) => {
+    return {
+      getTaskByDateStore: (date) => dispatch(actionCreators.getTaskForDate(date))
+    };
+  };
+
+export default connect(mapStateToProps,mapDispatchToProps)(TaskForDate);

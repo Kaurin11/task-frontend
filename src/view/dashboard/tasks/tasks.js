@@ -1,40 +1,20 @@
-import React, {useState, useEffect} from 'react' ;
+import React, { useEffect} from 'react' ;
 import Task from '../../../components/task/task';
-import { getUserIdFromStorage } from '../../../constants/localstorage';
-import { getAllTask } from '../../../constants/services/services';
 import './stylee.scss';
 
 import {connect} from 'react-redux';
 import * as actionCreators from '../../../store/actions/index';
 import { useHistory } from 'react-router';
 import { getAuthUrl } from '../../../constants/routes/routes';
-import LogoutButton from '../../../components/button/logoutBotton';
 
-const Tasks = ({getTaskStore,tasksStore,idUserStore}) => {
+const Tasks = ({getTaskStore,tasksStore}) => {
 
     const history = useHistory();
-    const [tasks, setTask] = useState([]);
-
-    const userId = getUserIdFromStorage();
-    useEffect(() => {
-        // const getData = async () => {
-        //     const userId = getUserIdFromStorage();
-        //     const {data} = await getAllTask(userId);
-        //     const allTask = data;
-        //     console.log(allTask)
-        //     setTask(allTask);
-        //     //props.getTaskStore(allTask);
-        // }
-        // getData()
-        
+    
+    useEffect(() => {      
             getTaskStore();
-
     }, []);
 
-    
-    // console.log(userId)
-   
-    // const idOfUser = localStorage.getItem('userId');
 
 
     const totalHours = tasksStore.reduce((acc, curr) => {
@@ -49,7 +29,6 @@ const Tasks = ({getTaskStore,tasksStore,idUserStore}) => {
         e.preventDefault();
         localStorage.clear();
         history.push(getAuthUrl())
-
     }
    
     return (
@@ -80,8 +59,7 @@ const Tasks = ({getTaskStore,tasksStore,idUserStore}) => {
 
 const mapStateToProps = (state) => {
     return {
-        tasksStore: state.reducer.tasks,
-        idUserStore: state.reducer.idUser
+        tasksStore: state.reducer.tasks
     }
 }
 
