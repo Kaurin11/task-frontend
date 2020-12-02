@@ -28,14 +28,13 @@ const Registration = () => {
     }),
   });
 
-  const goToLoginHandler = async(e) => {
-    e.preventDefault()
-    try{
-        await setUser(formik.values);
-        history.push(getLoginUrl());
-    }
-    catch (error){
-        setError(error.response.data.message)
+  const goToLoginHandler = async (e) => {
+    e.preventDefault();
+    try {
+      await setUser(formik.values);
+      history.push(getLoginUrl());
+    } catch (error) {
+      setError(error.response.data.message);
     }
     // console.log(formik.values);
     // setUser(formik.values);
@@ -114,7 +113,7 @@ const Registration = () => {
                 <div>{formik.errors.password}</div>
               ) : null}
             </div>
-              <h3>{error}</h3>
+            <h3>{error}</h3>
 
             <ButtonRegist
               className="u-margin-bottom-small"
